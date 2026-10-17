@@ -1,0 +1,5553 @@
+{
+  "displayFieldName": "fpa_id",
+  "fieldAliases": {
+    "objectid": "OBJECTID",
+    "fod_id": "FOD_ID",
+    "fire_year": "FIRE_YEAR",
+    "discovery_date": "DISCOVERY_DATE",
+    "latitude": "LATITUDE",
+    "longitude": "LONGITUDE",
+    "state": "STATE"
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "fod_id",
+      "type": "esriFieldTypeInteger",
+      "alias": "FOD_ID"
+    },
+    {
+      "name": "fire_year",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "FIRE_YEAR"
+    },
+    {
+      "name": "discovery_date",
+      "type": "esriFieldTypeDate",
+      "alias": "DISCOVERY_DATE",
+      "length": 8
+    },
+    {
+      "name": "latitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "LATITUDE"
+    },
+    {
+      "name": "longitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "LONGITUDE"
+    },
+    {
+      "name": "state",
+      "type": "esriFieldTypeString",
+      "alias": "STATE",
+      "length": 255
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "objectid": 1879555,
+        "fod_id": 400001543,
+        "fire_year": 2016,
+        "discovery_date": 1468800000000,
+        "latitude": 39.41944444,
+        "longitude": -122.94527778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879556,
+        "fod_id": 400001544,
+        "fire_year": 2016,
+        "discovery_date": 1459468800000,
+        "latitude": 39.91472222,
+        "longitude": -122.67083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879557,
+        "fod_id": 400001545,
+        "fire_year": 2016,
+        "discovery_date": 1460937600000,
+        "latitude": 41.4675,
+        "longitude": -121.25138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879559,
+        "fod_id": 400001547,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.45166667,
+        "longitude": -121.4175,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879560,
+        "fod_id": 400001548,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.36833333,
+        "longitude": -121.46888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879576,
+        "fod_id": 400001564,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 41.43888889,
+        "longitude": -121.40666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879578,
+        "fod_id": 400001566,
+        "fire_year": 2016,
+        "discovery_date": 1468108800000,
+        "latitude": 41.4675,
+        "longitude": -121.38305556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879579,
+        "fod_id": 400001567,
+        "fire_year": 2016,
+        "discovery_date": 1474934400000,
+        "latitude": 41.44444444,
+        "longitude": -121.485,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879582,
+        "fod_id": 400001570,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 40.05416667,
+        "longitude": -121.03138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879588,
+        "fod_id": 400001576,
+        "fire_year": 2016,
+        "discovery_date": 1470528000000,
+        "latitude": 40.01638889,
+        "longitude": -121.20888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879589,
+        "fod_id": 400001577,
+        "fire_year": 2016,
+        "discovery_date": 1471478400000,
+        "latitude": 40.05138889,
+        "longitude": -121.08611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879590,
+        "fod_id": 400001578,
+        "fire_year": 2016,
+        "discovery_date": 1475539200000,
+        "latitude": 39.91472222,
+        "longitude": -121.26777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879591,
+        "fod_id": 400001579,
+        "fire_year": 2016,
+        "discovery_date": 1475971200000,
+        "latitude": 39.94055556,
+        "longitude": -121.11666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879592,
+        "fod_id": 400001580,
+        "fire_year": 2016,
+        "discovery_date": 1475366400000,
+        "latitude": 39.86027778,
+        "longitude": -121.18,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879594,
+        "fod_id": 400001582,
+        "fire_year": 2016,
+        "discovery_date": 1474848000000,
+        "latitude": 39.93388889,
+        "longitude": -121.3275,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879599,
+        "fod_id": 400001587,
+        "fire_year": 2016,
+        "discovery_date": 1475452800000,
+        "latitude": 39.68972222,
+        "longitude": -121.32416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879672,
+        "fod_id": 400001660,
+        "fire_year": 2016,
+        "discovery_date": 1467072000000,
+        "latitude": 41.34388889,
+        "longitude": -122.25111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879673,
+        "fod_id": 400001661,
+        "fire_year": 2016,
+        "discovery_date": 1468454400000,
+        "latitude": 41.21277778,
+        "longitude": -122.51027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879674,
+        "fod_id": 400001662,
+        "fire_year": 2016,
+        "discovery_date": 1465603200000,
+        "latitude": 41.31083333,
+        "longitude": -122.46722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879675,
+        "fod_id": 400001663,
+        "fire_year": 2016,
+        "discovery_date": 1467676800000,
+        "latitude": 41.45111111,
+        "longitude": -121.72305556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879676,
+        "fod_id": 400001664,
+        "fire_year": 2016,
+        "discovery_date": 1470787200000,
+        "latitude": 41.01805556,
+        "longitude": -122.4025,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879677,
+        "fod_id": 400001665,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.34222222,
+        "longitude": -121.57583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879678,
+        "fod_id": 400001666,
+        "fire_year": 2016,
+        "discovery_date": 1470614400000,
+        "latitude": 41.28722222,
+        "longitude": -122.37444444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879679,
+        "fod_id": 400001667,
+        "fire_year": 2016,
+        "discovery_date": 1471564800000,
+        "latitude": 41.24277778,
+        "longitude": -122.38277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879680,
+        "fod_id": 400001668,
+        "fire_year": 2016,
+        "discovery_date": 1470096000000,
+        "latitude": 41.045,
+        "longitude": -122.39111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879681,
+        "fod_id": 400001669,
+        "fire_year": 2016,
+        "discovery_date": 1463616000000,
+        "latitude": 41.43611111,
+        "longitude": -122.33305556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879682,
+        "fod_id": 400001670,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.31472222,
+        "longitude": -122.37638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879683,
+        "fod_id": 400001671,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 41.23138889,
+        "longitude": -122.37416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879684,
+        "fod_id": 400001672,
+        "fire_year": 2016,
+        "discovery_date": 1469318400000,
+        "latitude": 41.29444444,
+        "longitude": -122.38,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879685,
+        "fod_id": 400001673,
+        "fire_year": 2016,
+        "discovery_date": 1469404800000,
+        "latitude": 41.28027778,
+        "longitude": -122.38833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879686,
+        "fod_id": 400001674,
+        "fire_year": 2016,
+        "discovery_date": 1472342400000,
+        "latitude": 41.265,
+        "longitude": -122.30972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879687,
+        "fod_id": 400001675,
+        "fire_year": 2016,
+        "discovery_date": 1471392000000,
+        "latitude": 41.19055556,
+        "longitude": -122.28666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879688,
+        "fod_id": 400001676,
+        "fire_year": 2016,
+        "discovery_date": 1470614400000,
+        "latitude": 41.20916667,
+        "longitude": -122.51416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879689,
+        "fod_id": 400001677,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 41.09638889,
+        "longitude": -121.90722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879690,
+        "fod_id": 400001678,
+        "fire_year": 2016,
+        "discovery_date": 1471046400000,
+        "latitude": 40.75,
+        "longitude": -122.43333333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879691,
+        "fod_id": 400001679,
+        "fire_year": 2016,
+        "discovery_date": 1471046400000,
+        "latitude": 40.75944444,
+        "longitude": -122.46222222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879692,
+        "fod_id": 400001680,
+        "fire_year": 2016,
+        "discovery_date": 1474329600000,
+        "latitude": 40.73166667,
+        "longitude": -122.23083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879693,
+        "fod_id": 400001681,
+        "fire_year": 2016,
+        "discovery_date": 1474416000000,
+        "latitude": 40.93361111,
+        "longitude": -122.24222222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879694,
+        "fod_id": 400001682,
+        "fire_year": 2016,
+        "discovery_date": 1470441600000,
+        "latitude": 41.15361111,
+        "longitude": -122.88694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879695,
+        "fod_id": 400001683,
+        "fire_year": 2016,
+        "discovery_date": 1471478400000,
+        "latitude": 41.28055556,
+        "longitude": -122.38666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879698,
+        "fod_id": 400001686,
+        "fire_year": 2016,
+        "discovery_date": 1468540800000,
+        "latitude": 40.36666667,
+        "longitude": -122.93722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879707,
+        "fod_id": 400001695,
+        "fire_year": 2016,
+        "discovery_date": 1463788800000,
+        "latitude": 41.19055556,
+        "longitude": -122.62777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879708,
+        "fod_id": 400001696,
+        "fire_year": 2016,
+        "discovery_date": 1462406400000,
+        "latitude": 41.07972222,
+        "longitude": -122.71638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879709,
+        "fod_id": 400001697,
+        "fire_year": 2016,
+        "discovery_date": 1465603200000,
+        "latitude": 40.80083333,
+        "longitude": -122.76388889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879710,
+        "fod_id": 400001698,
+        "fire_year": 2016,
+        "discovery_date": 1466726400000,
+        "latitude": 41.00222222,
+        "longitude": -122.64138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879711,
+        "fod_id": 400001699,
+        "fire_year": 2016,
+        "discovery_date": 1472169600000,
+        "latitude": 41.06583333,
+        "longitude": -122.03,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879712,
+        "fod_id": 400001700,
+        "fire_year": 2016,
+        "discovery_date": 1472515200000,
+        "latitude": 41.04722222,
+        "longitude": -122.81194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879715,
+        "fod_id": 400001703,
+        "fire_year": 2016,
+        "discovery_date": 1464393600000,
+        "latitude": 40.76861111,
+        "longitude": -122.38194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879767,
+        "fod_id": 400001755,
+        "fire_year": 2016,
+        "discovery_date": 1476144000000,
+        "latitude": 39.4125,
+        "longitude": -121.075,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879791,
+        "fod_id": 400001779,
+        "fire_year": 2016,
+        "discovery_date": 1473552000000,
+        "latitude": 39.52166667,
+        "longitude": -121.00083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1879796,
+        "fod_id": 400001784,
+        "fire_year": 2016,
+        "discovery_date": 1455667200000,
+        "latitude": 39.46694444,
+        "longitude": -121.04055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881150,
+        "fod_id": 400003158,
+        "fire_year": 2016,
+        "discovery_date": 1478736000000,
+        "latitude": 41.33083333,
+        "longitude": -122.7225,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881151,
+        "fod_id": 400003159,
+        "fire_year": 2016,
+        "discovery_date": 1467504000000,
+        "latitude": 40.73972222,
+        "longitude": -121.47,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881152,
+        "fod_id": 400003160,
+        "fire_year": 2016,
+        "discovery_date": 1467590400000,
+        "latitude": 40.20388889,
+        "longitude": -121.12361111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881176,
+        "fod_id": 400003184,
+        "fire_year": 2016,
+        "discovery_date": 1474070400000,
+        "latitude": 39.87111111,
+        "longitude": -121.175,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881223,
+        "fod_id": 400003235,
+        "fire_year": 2016,
+        "discovery_date": 1463616000000,
+        "latitude": 41.35138889,
+        "longitude": -122.27833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881224,
+        "fod_id": 400003236,
+        "fire_year": 2016,
+        "discovery_date": 1457136000000,
+        "latitude": 41.27361111,
+        "longitude": -122.35055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881225,
+        "fod_id": 400003237,
+        "fire_year": 2016,
+        "discovery_date": 1462752000000,
+        "latitude": 41.28944444,
+        "longitude": -122.28277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881226,
+        "fod_id": 400003238,
+        "fire_year": 2016,
+        "discovery_date": 1465948800000,
+        "latitude": 41.04388889,
+        "longitude": -122.41111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881227,
+        "fod_id": 400003239,
+        "fire_year": 2016,
+        "discovery_date": 1454803200000,
+        "latitude": 40.92694444,
+        "longitude": -122.41166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881228,
+        "fod_id": 400003240,
+        "fire_year": 2016,
+        "discovery_date": 1464912000000,
+        "latitude": 40.87972222,
+        "longitude": -122.38027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881229,
+        "fod_id": 400003241,
+        "fire_year": 2016,
+        "discovery_date": 1469059200000,
+        "latitude": 40.85694444,
+        "longitude": -122.33861111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881230,
+        "fod_id": 400003242,
+        "fire_year": 2016,
+        "discovery_date": 1474156800000,
+        "latitude": 40.82444444,
+        "longitude": -122.32583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881231,
+        "fod_id": 400003243,
+        "fire_year": 2016,
+        "discovery_date": 1470441600000,
+        "latitude": 40.85472222,
+        "longitude": -122.34194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881232,
+        "fod_id": 400003244,
+        "fire_year": 2016,
+        "discovery_date": 1473897600000,
+        "latitude": 40.81305556,
+        "longitude": -122.31916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881233,
+        "fod_id": 400003245,
+        "fire_year": 2016,
+        "discovery_date": 1473811200000,
+        "latitude": 40.85388889,
+        "longitude": -122.33638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881234,
+        "fod_id": 400003246,
+        "fire_year": 2016,
+        "discovery_date": 1476316800000,
+        "latitude": 40.86916667,
+        "longitude": -122.28083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881255,
+        "fod_id": 400003267,
+        "fire_year": 2016,
+        "discovery_date": 1460937600000,
+        "latitude": 39.39277778,
+        "longitude": -121.11638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1881258,
+        "fod_id": 400003270,
+        "fire_year": 2016,
+        "discovery_date": 1468022400000,
+        "latitude": 39.43972222,
+        "longitude": -121.06972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883123,
+        "fod_id": 400005177,
+        "fire_year": 2016,
+        "discovery_date": 1469836800000,
+        "latitude": 41.13361111,
+        "longitude": -122.95027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883128,
+        "fod_id": 400005182,
+        "fire_year": 2016,
+        "discovery_date": 1472860800000,
+        "latitude": 40.38055556,
+        "longitude": -121.17388889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883129,
+        "fod_id": 400005183,
+        "fire_year": 2016,
+        "discovery_date": 1471478400000,
+        "latitude": 40.12666667,
+        "longitude": -121.37277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883130,
+        "fod_id": 400005184,
+        "fire_year": 2016,
+        "discovery_date": 1469750400000,
+        "latitude": 40.69527778,
+        "longitude": -121.13916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883131,
+        "fod_id": 400005185,
+        "fire_year": 2016,
+        "discovery_date": 1473033600000,
+        "latitude": 40.15944444,
+        "longitude": -121.54583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883133,
+        "fod_id": 400005187,
+        "fire_year": 2016,
+        "discovery_date": 1470787200000,
+        "latitude": 40.0,
+        "longitude": -121.0,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883134,
+        "fod_id": 400005188,
+        "fire_year": 2016,
+        "discovery_date": 1475712000000,
+        "latitude": 40.15722222,
+        "longitude": -121.59277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883135,
+        "fod_id": 400005189,
+        "fire_year": 2016,
+        "discovery_date": 1468195200000,
+        "latitude": 39.44472222,
+        "longitude": -122.95777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883136,
+        "fod_id": 400005190,
+        "fire_year": 2016,
+        "discovery_date": 1474243200000,
+        "latitude": 39.57527778,
+        "longitude": -122.89611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883137,
+        "fod_id": 400005191,
+        "fire_year": 2016,
+        "discovery_date": 1472515200000,
+        "latitude": 39.25777778,
+        "longitude": -122.94777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883161,
+        "fod_id": 400005215,
+        "fire_year": 2016,
+        "discovery_date": 1464393600000,
+        "latitude": 39.68611111,
+        "longitude": -121.00083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883162,
+        "fod_id": 400005216,
+        "fire_year": 2016,
+        "discovery_date": 1466553600000,
+        "latitude": 39.77305556,
+        "longitude": -121.28111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883163,
+        "fod_id": 400005217,
+        "fire_year": 2016,
+        "discovery_date": 1468972800000,
+        "latitude": 39.58444444,
+        "longitude": -121.10472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883164,
+        "fod_id": 400005218,
+        "fire_year": 2016,
+        "discovery_date": 1467072000000,
+        "latitude": 39.7175,
+        "longitude": -121.23777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883165,
+        "fod_id": 400005219,
+        "fire_year": 2016,
+        "discovery_date": 1468281600000,
+        "latitude": 39.51111111,
+        "longitude": -121.19083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883166,
+        "fod_id": 400005220,
+        "fire_year": 2016,
+        "discovery_date": 1471046400000,
+        "latitude": 39.84472222,
+        "longitude": -121.18083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883168,
+        "fod_id": 400005222,
+        "fire_year": 2016,
+        "discovery_date": 1472947200000,
+        "latitude": 39.68444444,
+        "longitude": -121.29555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883169,
+        "fod_id": 400005223,
+        "fire_year": 2016,
+        "discovery_date": 1473552000000,
+        "latitude": 39.58722222,
+        "longitude": -121.09722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883170,
+        "fod_id": 400005224,
+        "fire_year": 2016,
+        "discovery_date": 1475798400000,
+        "latitude": 39.54222222,
+        "longitude": -121.13583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883171,
+        "fod_id": 400005225,
+        "fire_year": 2016,
+        "discovery_date": 1475020800000,
+        "latitude": 39.79694444,
+        "longitude": -121.46055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883172,
+        "fod_id": 400005226,
+        "fire_year": 2016,
+        "discovery_date": 1475539200000,
+        "latitude": 39.57833333,
+        "longitude": -121.14277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883173,
+        "fod_id": 400005227,
+        "fire_year": 2016,
+        "discovery_date": 1474761600000,
+        "latitude": 39.64416667,
+        "longitude": -121.34277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883174,
+        "fod_id": 400005228,
+        "fire_year": 2016,
+        "discovery_date": 1475625600000,
+        "latitude": 39.7375,
+        "longitude": -121.02833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883175,
+        "fod_id": 400005229,
+        "fire_year": 2016,
+        "discovery_date": 1479686400000,
+        "latitude": 39.52277778,
+        "longitude": -121.29916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883234,
+        "fod_id": 400005289,
+        "fire_year": 2016,
+        "discovery_date": 1470441600000,
+        "latitude": 41.35111111,
+        "longitude": -122.28472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883235,
+        "fod_id": 400005290,
+        "fire_year": 2016,
+        "discovery_date": 1473120000000,
+        "latitude": 41.2775,
+        "longitude": -122.21472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883236,
+        "fod_id": 400005291,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.46694444,
+        "longitude": -121.6675,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883237,
+        "fod_id": 400005292,
+        "fire_year": 2016,
+        "discovery_date": 1466035200000,
+        "latitude": 41.47777778,
+        "longitude": -122.29027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883238,
+        "fod_id": 400005293,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.33777778,
+        "longitude": -122.29944444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883239,
+        "fod_id": 400005294,
+        "fire_year": 2016,
+        "discovery_date": 1468540800000,
+        "latitude": 41.29055556,
+        "longitude": -122.37666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883240,
+        "fod_id": 400005295,
+        "fire_year": 2016,
+        "discovery_date": 1468972800000,
+        "latitude": 41.24361111,
+        "longitude": -122.38305556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883241,
+        "fod_id": 400005296,
+        "fire_year": 2016,
+        "discovery_date": 1468540800000,
+        "latitude": 41.3575,
+        "longitude": -122.30472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883242,
+        "fod_id": 400005297,
+        "fire_year": 2016,
+        "discovery_date": 1468368000000,
+        "latitude": 41.35777778,
+        "longitude": -122.24916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883243,
+        "fod_id": 400005298,
+        "fire_year": 2016,
+        "discovery_date": 1473638400000,
+        "latitude": 41.35111111,
+        "longitude": -122.20111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883245,
+        "fod_id": 400005300,
+        "fire_year": 2016,
+        "discovery_date": 1471219200000,
+        "latitude": 41.29111111,
+        "longitude": -122.5825,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883246,
+        "fod_id": 400005301,
+        "fire_year": 2016,
+        "discovery_date": 1474675200000,
+        "latitude": 41.29222222,
+        "longitude": -121.87722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883247,
+        "fod_id": 400005302,
+        "fire_year": 2016,
+        "discovery_date": 1474675200000,
+        "latitude": 41.27611111,
+        "longitude": -122.41805556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883248,
+        "fod_id": 400005303,
+        "fire_year": 2016,
+        "discovery_date": 1464652800000,
+        "latitude": 41.15083333,
+        "longitude": -122.31027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883249,
+        "fod_id": 400005304,
+        "fire_year": 2016,
+        "discovery_date": 1475107200000,
+        "latitude": 41.06861111,
+        "longitude": -121.90277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883250,
+        "fod_id": 400005305,
+        "fire_year": 2016,
+        "discovery_date": 1467676800000,
+        "latitude": 40.23555556,
+        "longitude": -122.92555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883251,
+        "fod_id": 400005306,
+        "fire_year": 2016,
+        "discovery_date": 1468454400000,
+        "latitude": 40.85222222,
+        "longitude": -122.83666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883252,
+        "fod_id": 400005307,
+        "fire_year": 2016,
+        "discovery_date": 1469577600000,
+        "latitude": 41.07027778,
+        "longitude": -122.70694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1883291,
+        "fod_id": 400005346,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 39.43833333,
+        "longitude": -121.08416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885123,
+        "fod_id": 400007223,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 41.39722222,
+        "longitude": -122.98916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885139,
+        "fod_id": 400007239,
+        "fire_year": 2017,
+        "discovery_date": 1502841600000,
+        "latitude": 41.46472222,
+        "longitude": -122.06638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885172,
+        "fod_id": 400007272,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.20666667,
+        "longitude": -121.24138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885173,
+        "fod_id": 400007273,
+        "fire_year": 2017,
+        "discovery_date": 1506902400000,
+        "latitude": 40.36055556,
+        "longitude": -121.49972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885174,
+        "fod_id": 400007274,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.11916667,
+        "longitude": -121.18666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885175,
+        "fod_id": 400007275,
+        "fire_year": 2017,
+        "discovery_date": 1498262400000,
+        "latitude": 40.18916667,
+        "longitude": -121.13,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885176,
+        "fod_id": 400007276,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.32166667,
+        "longitude": -121.62138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885177,
+        "fod_id": 400007277,
+        "fire_year": 2017,
+        "discovery_date": 1502841600000,
+        "latitude": 40.42138889,
+        "longitude": -121.06555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885178,
+        "fod_id": 400007278,
+        "fire_year": 2017,
+        "discovery_date": 1503878400000,
+        "latitude": 40.32166667,
+        "longitude": -121.57055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885179,
+        "fod_id": 400007279,
+        "fire_year": 2017,
+        "discovery_date": 1504828800000,
+        "latitude": 40.75277778,
+        "longitude": -121.44611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885180,
+        "fod_id": 400007280,
+        "fire_year": 2017,
+        "discovery_date": 1496102400000,
+        "latitude": 40.85083333,
+        "longitude": -121.30166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885181,
+        "fod_id": 400007281,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.16472222,
+        "longitude": -121.25416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885182,
+        "fod_id": 400007282,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.29416667,
+        "longitude": -121.59722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885183,
+        "fod_id": 400007283,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.21055556,
+        "longitude": -121.29555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885184,
+        "fod_id": 400007284,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.92027778,
+        "longitude": -121.475,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885185,
+        "fod_id": 400007285,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.81083333,
+        "longitude": -121.22555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885186,
+        "fod_id": 400007286,
+        "fire_year": 2017,
+        "discovery_date": 1500163200000,
+        "latitude": 40.27694444,
+        "longitude": -121.23694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885187,
+        "fod_id": 400007287,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.22388889,
+        "longitude": -121.37222222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885188,
+        "fod_id": 400007288,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.54305556,
+        "longitude": -121.14777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885189,
+        "fod_id": 400007289,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.64083333,
+        "longitude": -121.24888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885190,
+        "fod_id": 400007290,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.79972222,
+        "longitude": -121.50277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885191,
+        "fod_id": 400007291,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.82472222,
+        "longitude": -121.34888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885192,
+        "fod_id": 400007292,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.85,
+        "longitude": -121.20305556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885193,
+        "fod_id": 400007293,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.76138889,
+        "longitude": -121.43055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885197,
+        "fod_id": 400007297,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.12083333,
+        "longitude": -121.18111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885198,
+        "fod_id": 400007298,
+        "fire_year": 2017,
+        "discovery_date": 1485734400000,
+        "latitude": 40.71277778,
+        "longitude": -121.04583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885199,
+        "fod_id": 400007299,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.64083333,
+        "longitude": -121.49805556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885200,
+        "fod_id": 400007300,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 40.75055556,
+        "longitude": -121.09944444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885220,
+        "fod_id": 400007320,
+        "fire_year": 2017,
+        "discovery_date": 1499990400000,
+        "latitude": 39.37805556,
+        "longitude": -122.76027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885221,
+        "fod_id": 400007321,
+        "fire_year": 2017,
+        "discovery_date": 1497312000000,
+        "latitude": 39.70833333,
+        "longitude": -121.77611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885222,
+        "fod_id": 400007322,
+        "fire_year": 2017,
+        "discovery_date": 1502409600000,
+        "latitude": 39.43527778,
+        "longitude": -122.6875,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885223,
+        "fod_id": 400007323,
+        "fire_year": 2017,
+        "discovery_date": 1495756800000,
+        "latitude": 39.85305556,
+        "longitude": -122.81138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885224,
+        "fod_id": 400007324,
+        "fire_year": 2017,
+        "discovery_date": 1502409600000,
+        "latitude": 39.61944444,
+        "longitude": -122.74833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885225,
+        "fod_id": 400007325,
+        "fire_year": 2017,
+        "discovery_date": 1507420800000,
+        "latitude": 39.92194444,
+        "longitude": -122.68083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885226,
+        "fod_id": 400007326,
+        "fire_year": 2017,
+        "discovery_date": 1504915200000,
+        "latitude": 40.00666667,
+        "longitude": -122.74972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885278,
+        "fod_id": 400007378,
+        "fire_year": 2017,
+        "discovery_date": 1498176000000,
+        "latitude": 39.76694444,
+        "longitude": -121.46638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885279,
+        "fod_id": 400007379,
+        "fire_year": 2017,
+        "discovery_date": 1499385600000,
+        "latitude": 39.59972222,
+        "longitude": -121.07555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885280,
+        "fod_id": 400007380,
+        "fire_year": 2017,
+        "discovery_date": 1499385600000,
+        "latitude": 39.48222222,
+        "longitude": -121.21333333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885281,
+        "fod_id": 400007381,
+        "fire_year": 2017,
+        "discovery_date": 1503360000000,
+        "latitude": 39.87305556,
+        "longitude": -121.2325,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885282,
+        "fod_id": 400007382,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 39.82416667,
+        "longitude": -121.43722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885283,
+        "fod_id": 400007383,
+        "fire_year": 2017,
+        "discovery_date": 1499644800000,
+        "latitude": 39.53333333,
+        "longitude": -121.17638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885285,
+        "fod_id": 400007385,
+        "fire_year": 2017,
+        "discovery_date": 1496361600000,
+        "latitude": 40.01222222,
+        "longitude": -121.18666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885286,
+        "fod_id": 400007386,
+        "fire_year": 2017,
+        "discovery_date": 1496620800000,
+        "latitude": 39.95805556,
+        "longitude": -121.28916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885299,
+        "fod_id": 400007399,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 40.04944444,
+        "longitude": -121.08972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885309,
+        "fod_id": 400007409,
+        "fire_year": 2017,
+        "discovery_date": 1501372800000,
+        "latitude": 39.90138889,
+        "longitude": -121.10166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885312,
+        "fod_id": 400007412,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 40.03777778,
+        "longitude": -121.18222222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885313,
+        "fod_id": 400007413,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 39.96527778,
+        "longitude": -121.27416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885318,
+        "fod_id": 400007418,
+        "fire_year": 2017,
+        "discovery_date": 1499817600000,
+        "latitude": 39.90138889,
+        "longitude": -121.10527778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885322,
+        "fod_id": 400007422,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.09416667,
+        "longitude": -121.02277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885327,
+        "fod_id": 400007427,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.09388889,
+        "longitude": -121.03277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885328,
+        "fod_id": 400007428,
+        "fire_year": 2017,
+        "discovery_date": 1505433600000,
+        "latitude": 40.05611111,
+        "longitude": -121.12472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885329,
+        "fod_id": 400007429,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.035,
+        "longitude": -121.13583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885331,
+        "fod_id": 400007431,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.15,
+        "longitude": -121.06027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885367,
+        "fod_id": 400007467,
+        "fire_year": 2017,
+        "discovery_date": 1498608000000,
+        "latitude": 39.94444444,
+        "longitude": -121.30777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885373,
+        "fod_id": 400007473,
+        "fire_year": 2017,
+        "discovery_date": 1505952000000,
+        "latitude": 39.93472222,
+        "longitude": -121.06083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885443,
+        "fod_id": 400007543,
+        "fire_year": 2017,
+        "discovery_date": 1500249600000,
+        "latitude": 41.345,
+        "longitude": -122.25722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885445,
+        "fod_id": 400007545,
+        "fire_year": 2017,
+        "discovery_date": 1500163200000,
+        "latitude": 41.27277778,
+        "longitude": -122.33694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885446,
+        "fod_id": 400007546,
+        "fire_year": 2017,
+        "discovery_date": 1500163200000,
+        "latitude": 41.27277778,
+        "longitude": -122.33694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885447,
+        "fod_id": 400007547,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.99972222,
+        "longitude": -122.50916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885448,
+        "fod_id": 400007548,
+        "fire_year": 2017,
+        "discovery_date": 1495670400000,
+        "latitude": 41.43361111,
+        "longitude": -121.75944444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885449,
+        "fod_id": 400007549,
+        "fire_year": 2017,
+        "discovery_date": 1503014400000,
+        "latitude": 41.36444444,
+        "longitude": -122.17194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885450,
+        "fod_id": 400007550,
+        "fire_year": 2017,
+        "discovery_date": 1502150400000,
+        "latitude": 41.28222222,
+        "longitude": -122.21833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885452,
+        "fod_id": 400007552,
+        "fire_year": 2017,
+        "discovery_date": 1501977600000,
+        "latitude": 41.05138889,
+        "longitude": -122.36666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885453,
+        "fod_id": 400007553,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.94111111,
+        "longitude": -122.42583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885454,
+        "fod_id": 400007554,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 40.98833333,
+        "longitude": -122.42694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885455,
+        "fod_id": 400007555,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.48027778,
+        "longitude": -122.15916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885456,
+        "fod_id": 400007556,
+        "fire_year": 2017,
+        "discovery_date": 1504051200000,
+        "latitude": 41.26833333,
+        "longitude": -122.21055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885457,
+        "fod_id": 400007557,
+        "fire_year": 2017,
+        "discovery_date": 1507075200000,
+        "latitude": 41.46222222,
+        "longitude": -121.89416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885458,
+        "fod_id": 400007558,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.94916667,
+        "longitude": -122.4875,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885460,
+        "fod_id": 400007560,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 41.08861111,
+        "longitude": -122.51111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885461,
+        "fod_id": 400007561,
+        "fire_year": 2017,
+        "discovery_date": 1502236800000,
+        "latitude": 41.37555556,
+        "longitude": -121.76277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885462,
+        "fod_id": 400007562,
+        "fire_year": 2017,
+        "discovery_date": 1489363200000,
+        "latitude": 41.48055556,
+        "longitude": -122.33472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885463,
+        "fod_id": 400007563,
+        "fire_year": 2017,
+        "discovery_date": 1508716800000,
+        "latitude": 41.26722222,
+        "longitude": -122.23611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885464,
+        "fod_id": 400007564,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.34416667,
+        "longitude": -122.25583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885465,
+        "fod_id": 400007565,
+        "fire_year": 2017,
+        "discovery_date": 1503878400000,
+        "latitude": 41.42027778,
+        "longitude": -122.58416667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885466,
+        "fod_id": 400007566,
+        "fire_year": 2017,
+        "discovery_date": 1509408000000,
+        "latitude": 41.03861111,
+        "longitude": -122.69722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885467,
+        "fod_id": 400007567,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.03666667,
+        "longitude": -122.56916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885469,
+        "fod_id": 400007569,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.02111111,
+        "longitude": -122.81694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885471,
+        "fod_id": 400007571,
+        "fire_year": 2017,
+        "discovery_date": 1501200000000,
+        "latitude": 41.02583333,
+        "longitude": -122.84361111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885472,
+        "fod_id": 400007572,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.77083333,
+        "longitude": -122.99277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885478,
+        "fod_id": 400007578,
+        "fire_year": 2017,
+        "discovery_date": 1497657600000,
+        "latitude": 40.9875,
+        "longitude": -122.65972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885482,
+        "fod_id": 400007582,
+        "fire_year": 2017,
+        "discovery_date": 1502323200000,
+        "latitude": 41.05805556,
+        "longitude": -122.8725,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885483,
+        "fod_id": 400007583,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.09083333,
+        "longitude": -122.65444444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885484,
+        "fod_id": 400007584,
+        "fire_year": 2017,
+        "discovery_date": 1506124800000,
+        "latitude": 40.915,
+        "longitude": -122.53166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885485,
+        "fod_id": 400007585,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.79388889,
+        "longitude": -122.89083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885487,
+        "fod_id": 400007587,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.86666667,
+        "longitude": -122.68361111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885488,
+        "fod_id": 400007588,
+        "fire_year": 2017,
+        "discovery_date": 1503360000000,
+        "latitude": 41.06666667,
+        "longitude": -122.83944444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885489,
+        "fod_id": 400007589,
+        "fire_year": 2017,
+        "discovery_date": 1504828800000,
+        "latitude": 40.90944444,
+        "longitude": -122.8625,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885490,
+        "fod_id": 400007590,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 41.10277778,
+        "longitude": -121.93055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885491,
+        "fod_id": 400007591,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.97638889,
+        "longitude": -121.82472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885492,
+        "fod_id": 400007592,
+        "fire_year": 2017,
+        "discovery_date": 1497225600000,
+        "latitude": 40.82083333,
+        "longitude": -122.9025,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885493,
+        "fod_id": 400007593,
+        "fire_year": 2017,
+        "discovery_date": 1493856000000,
+        "latitude": 40.92222222,
+        "longitude": -122.2425,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885494,
+        "fod_id": 400007594,
+        "fire_year": 2017,
+        "discovery_date": 1493856000000,
+        "latitude": 40.82277778,
+        "longitude": -122.155,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885495,
+        "fod_id": 400007595,
+        "fire_year": 2017,
+        "discovery_date": 1505347200000,
+        "latitude": 40.80777778,
+        "longitude": -122.32277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885496,
+        "fod_id": 400007596,
+        "fire_year": 2017,
+        "discovery_date": 1497484800000,
+        "latitude": 40.79194444,
+        "longitude": -122.42111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885497,
+        "fod_id": 400007597,
+        "fire_year": 2017,
+        "discovery_date": 1507852800000,
+        "latitude": 40.87388889,
+        "longitude": -122.23722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885499,
+        "fod_id": 400007599,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.83888889,
+        "longitude": -122.97833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885500,
+        "fod_id": 400007600,
+        "fire_year": 2017,
+        "discovery_date": 1501027200000,
+        "latitude": 40.78638889,
+        "longitude": -122.19638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885501,
+        "fod_id": 400007601,
+        "fire_year": 2017,
+        "discovery_date": 1498953600000,
+        "latitude": 40.90388889,
+        "longitude": -122.16027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885502,
+        "fod_id": 400007602,
+        "fire_year": 2017,
+        "discovery_date": 1500076800000,
+        "latitude": 40.84416667,
+        "longitude": -122.36,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885503,
+        "fod_id": 400007603,
+        "fire_year": 2017,
+        "discovery_date": 1500249600000,
+        "latitude": 40.77027778,
+        "longitude": -122.30944444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885504,
+        "fod_id": 400007604,
+        "fire_year": 2017,
+        "discovery_date": 1498348800000,
+        "latitude": 40.875,
+        "longitude": -122.24055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885505,
+        "fod_id": 400007605,
+        "fire_year": 2017,
+        "discovery_date": 1498262400000,
+        "latitude": 40.87361111,
+        "longitude": -122.13583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885518,
+        "fod_id": 400007618,
+        "fire_year": 2017,
+        "discovery_date": 1502409600000,
+        "latitude": 40.41583333,
+        "longitude": -122.95666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885520,
+        "fod_id": 400007620,
+        "fire_year": 2017,
+        "discovery_date": 1505433600000,
+        "latitude": 40.17944444,
+        "longitude": -122.91777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885522,
+        "fod_id": 400007622,
+        "fire_year": 2017,
+        "discovery_date": 1504915200000,
+        "latitude": 40.15555556,
+        "longitude": -122.85527778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885524,
+        "fod_id": 400007624,
+        "fire_year": 2017,
+        "discovery_date": 1502323200000,
+        "latitude": 40.14583333,
+        "longitude": -122.86611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885526,
+        "fod_id": 400007626,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.45555556,
+        "longitude": -122.95166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885527,
+        "fod_id": 400007627,
+        "fire_year": 2017,
+        "discovery_date": 1502323200000,
+        "latitude": 40.1475,
+        "longitude": -122.84305556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885593,
+        "fod_id": 400007693,
+        "fire_year": 2017,
+        "discovery_date": 1495411200000,
+        "latitude": 39.49555556,
+        "longitude": -121.12888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885596,
+        "fod_id": 400007696,
+        "fire_year": 2017,
+        "discovery_date": 1501286400000,
+        "latitude": 39.46694444,
+        "longitude": -121.14611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1885613,
+        "fod_id": 400007713,
+        "fire_year": 2017,
+        "discovery_date": 1505952000000,
+        "latitude": 39.46722222,
+        "longitude": -121.13388889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887511,
+        "fod_id": 400009629,
+        "fire_year": 2017,
+        "discovery_date": 1499212800000,
+        "latitude": 41.36277778,
+        "longitude": -122.83194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887535,
+        "fod_id": 400009653,
+        "fire_year": 2017,
+        "discovery_date": 1498867200000,
+        "latitude": 40.15638889,
+        "longitude": -122.20611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887552,
+        "fod_id": 400009671,
+        "fire_year": 2017,
+        "discovery_date": 1510012800000,
+        "latitude": 39.88,
+        "longitude": -121.19833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887553,
+        "fod_id": 400009672,
+        "fire_year": 2017,
+        "discovery_date": 1496275200000,
+        "latitude": 40.02888889,
+        "longitude": -121.11888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887571,
+        "fod_id": 400009690,
+        "fire_year": 2017,
+        "discovery_date": 1501286400000,
+        "latitude": 39.96194444,
+        "longitude": -121.05444444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887573,
+        "fod_id": 400009692,
+        "fire_year": 2017,
+        "discovery_date": 1500681600000,
+        "latitude": 40.14833333,
+        "longitude": -121.02694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887584,
+        "fod_id": 400009703,
+        "fire_year": 2017,
+        "discovery_date": 1500940800000,
+        "latitude": 41.04027778,
+        "longitude": -122.39583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887585,
+        "fod_id": 400009704,
+        "fire_year": 2017,
+        "discovery_date": 1508976000000,
+        "latitude": 40.94111111,
+        "longitude": -122.42722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887586,
+        "fod_id": 400009705,
+        "fire_year": 2017,
+        "discovery_date": 1506211200000,
+        "latitude": 40.9425,
+        "longitude": -122.43611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887587,
+        "fod_id": 400009706,
+        "fire_year": 2017,
+        "discovery_date": 1502496000000,
+        "latitude": 41.01222222,
+        "longitude": -122.35611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887588,
+        "fod_id": 400009707,
+        "fire_year": 2017,
+        "discovery_date": 1494374400000,
+        "latitude": 41.31472222,
+        "longitude": -122.2725,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887589,
+        "fod_id": 400009708,
+        "fire_year": 2017,
+        "discovery_date": 1495238400000,
+        "latitude": 41.14916667,
+        "longitude": -122.31166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887590,
+        "fod_id": 400009709,
+        "fire_year": 2017,
+        "discovery_date": 1503964800000,
+        "latitude": 41.22472222,
+        "longitude": -122.2825,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887593,
+        "fod_id": 400009712,
+        "fire_year": 2017,
+        "discovery_date": 1499299200000,
+        "latitude": 40.92222222,
+        "longitude": -122.79083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887594,
+        "fod_id": 400009713,
+        "fire_year": 2017,
+        "discovery_date": 1501286400000,
+        "latitude": 40.74916667,
+        "longitude": -122.78833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887595,
+        "fod_id": 400009714,
+        "fire_year": 2017,
+        "discovery_date": 1501372800000,
+        "latitude": 40.99027778,
+        "longitude": -122.69583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887596,
+        "fod_id": 400009715,
+        "fire_year": 2017,
+        "discovery_date": 1504828800000,
+        "latitude": 41.04166667,
+        "longitude": -122.57361111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887597,
+        "fod_id": 400009716,
+        "fire_year": 2017,
+        "discovery_date": 1502150400000,
+        "latitude": 40.76972222,
+        "longitude": -122.97277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887599,
+        "fod_id": 400009718,
+        "fire_year": 2017,
+        "discovery_date": 1504310400000,
+        "latitude": 40.79916667,
+        "longitude": -122.315,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887600,
+        "fod_id": 400009719,
+        "fire_year": 2017,
+        "discovery_date": 1503878400000,
+        "latitude": 40.74861111,
+        "longitude": -122.245,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887601,
+        "fod_id": 400009720,
+        "fire_year": 2017,
+        "discovery_date": 1509408000000,
+        "latitude": 40.77444444,
+        "longitude": -122.30888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887602,
+        "fod_id": 400009721,
+        "fire_year": 2017,
+        "discovery_date": 1502755200000,
+        "latitude": 40.88555556,
+        "longitude": -122.37861111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887603,
+        "fod_id": 400009722,
+        "fire_year": 2017,
+        "discovery_date": 1495756800000,
+        "latitude": 40.91666667,
+        "longitude": -122.38722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887604,
+        "fod_id": 400009723,
+        "fire_year": 2017,
+        "discovery_date": 1504051200000,
+        "latitude": 40.7975,
+        "longitude": -122.32194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887605,
+        "fod_id": 400009724,
+        "fire_year": 2017,
+        "discovery_date": 1507507200000,
+        "latitude": 40.91916667,
+        "longitude": -122.39861111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887606,
+        "fod_id": 400009725,
+        "fire_year": 2017,
+        "discovery_date": 1495324800000,
+        "latitude": 40.86083333,
+        "longitude": -122.40055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887607,
+        "fod_id": 400009726,
+        "fire_year": 2017,
+        "discovery_date": 1507680000000,
+        "latitude": 40.79861111,
+        "longitude": -122.32166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887608,
+        "fod_id": 400009727,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.83944444,
+        "longitude": -122.36027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887609,
+        "fod_id": 400009728,
+        "fire_year": 2017,
+        "discovery_date": 1506729600000,
+        "latitude": 40.92916667,
+        "longitude": -122.41166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887611,
+        "fod_id": 400009730,
+        "fire_year": 2017,
+        "discovery_date": 1500076800000,
+        "latitude": 40.7725,
+        "longitude": -122.33888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887612,
+        "fod_id": 400009731,
+        "fire_year": 2017,
+        "discovery_date": 1499385600000,
+        "latitude": 40.90611111,
+        "longitude": -122.38111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887613,
+        "fod_id": 400009732,
+        "fire_year": 2017,
+        "discovery_date": 1499299200000,
+        "latitude": 40.80388889,
+        "longitude": -122.32805556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1887614,
+        "fod_id": 400009733,
+        "fire_year": 2017,
+        "discovery_date": 1495843200000,
+        "latitude": 40.92305556,
+        "longitude": -122.79055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889560,
+        "fod_id": 400011708,
+        "fire_year": 2017,
+        "discovery_date": 1502236800000,
+        "latitude": 41.31222222,
+        "longitude": -122.7425,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889562,
+        "fod_id": 400011710,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.28111111,
+        "longitude": -122.93055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889571,
+        "fod_id": 400011719,
+        "fire_year": 2017,
+        "discovery_date": 1501977600000,
+        "latitude": 41.03666667,
+        "longitude": -122.99166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889572,
+        "fod_id": 400011720,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.13888889,
+        "longitude": -122.96694444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889573,
+        "fod_id": 400011721,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 41.01305556,
+        "longitude": -122.94055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889583,
+        "fod_id": 400011731,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.265,
+        "longitude": -121.57555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889584,
+        "fod_id": 400011732,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.41888889,
+        "longitude": -121.53444444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889585,
+        "fod_id": 400011733,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.15222222,
+        "longitude": -121.36833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889586,
+        "fod_id": 400011734,
+        "fire_year": 2017,
+        "discovery_date": 1503792000000,
+        "latitude": 40.35083333,
+        "longitude": -121.53444444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889587,
+        "fod_id": 400011735,
+        "fire_year": 2017,
+        "discovery_date": 1504656000000,
+        "latitude": 40.48416667,
+        "longitude": -121.11888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889588,
+        "fod_id": 400011736,
+        "fire_year": 2017,
+        "discovery_date": 1505692800000,
+        "latitude": 40.29222222,
+        "longitude": -121.4175,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889590,
+        "fod_id": 400011738,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 40.31833333,
+        "longitude": -121.64972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889591,
+        "fod_id": 400011739,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 40.33194444,
+        "longitude": -121.31944444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889592,
+        "fod_id": 400011740,
+        "fire_year": 2017,
+        "discovery_date": 1498694400000,
+        "latitude": 40.31861111,
+        "longitude": -121.28583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889593,
+        "fod_id": 400011741,
+        "fire_year": 2017,
+        "discovery_date": 1502150400000,
+        "latitude": 40.70277778,
+        "longitude": -121.08805556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889596,
+        "fod_id": 400011744,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 40.735,
+        "longitude": -121.11194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889597,
+        "fod_id": 400011745,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.80166667,
+        "longitude": -121.28472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889598,
+        "fod_id": 400011746,
+        "fire_year": 2017,
+        "discovery_date": 1501027200000,
+        "latitude": 40.83472222,
+        "longitude": -121.16916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889599,
+        "fod_id": 400011747,
+        "fire_year": 2017,
+        "discovery_date": 1495324800000,
+        "latitude": 40.51666667,
+        "longitude": -121.01472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889600,
+        "fod_id": 400011748,
+        "fire_year": 2017,
+        "discovery_date": 1501286400000,
+        "latitude": 40.56805556,
+        "longitude": -121.55166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889607,
+        "fod_id": 400011755,
+        "fire_year": 2017,
+        "discovery_date": 1500681600000,
+        "latitude": 39.32555556,
+        "longitude": -122.9125,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889608,
+        "fod_id": 400011756,
+        "fire_year": 2017,
+        "discovery_date": 1502409600000,
+        "latitude": 39.49027778,
+        "longitude": -122.90805556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889609,
+        "fod_id": 400011757,
+        "fire_year": 2017,
+        "discovery_date": 1502496000000,
+        "latitude": 40.06777778,
+        "longitude": -122.97361111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889610,
+        "fod_id": 400011758,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 39.41305556,
+        "longitude": -122.94055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889613,
+        "fod_id": 400011761,
+        "fire_year": 2017,
+        "discovery_date": 1505260800000,
+        "latitude": 40.08777778,
+        "longitude": -122.97666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889614,
+        "fod_id": 400011762,
+        "fire_year": 2017,
+        "discovery_date": 1505692800000,
+        "latitude": 39.43777778,
+        "longitude": -122.98138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889615,
+        "fod_id": 400011763,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 39.39638889,
+        "longitude": -122.87138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889617,
+        "fod_id": 400011765,
+        "fire_year": 2017,
+        "discovery_date": 1499904000000,
+        "latitude": 39.69944444,
+        "longitude": -122.99083333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889618,
+        "fod_id": 400011766,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 39.62611111,
+        "longitude": -122.94055556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889620,
+        "fod_id": 400011768,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 39.90722222,
+        "longitude": -122.94,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889621,
+        "fod_id": 400011769,
+        "fire_year": 2017,
+        "discovery_date": 1502236800000,
+        "latitude": 39.86805556,
+        "longitude": -122.97611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889622,
+        "fod_id": 400011770,
+        "fire_year": 2017,
+        "discovery_date": 1503187200000,
+        "latitude": 40.0325,
+        "longitude": -122.87333333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889623,
+        "fod_id": 400011771,
+        "fire_year": 2017,
+        "discovery_date": 1501977600000,
+        "latitude": 39.6,
+        "longitude": -122.9375,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889624,
+        "fod_id": 400011772,
+        "fire_year": 2017,
+        "discovery_date": 1504915200000,
+        "latitude": 39.58138889,
+        "longitude": -122.92916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889639,
+        "fod_id": 400011787,
+        "fire_year": 2017,
+        "discovery_date": 1498348800000,
+        "latitude": 41.49472222,
+        "longitude": -121.12361111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889648,
+        "fod_id": 400011796,
+        "fire_year": 2017,
+        "discovery_date": 1501027200000,
+        "latitude": 41.32138889,
+        "longitude": -121.01777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889668,
+        "fod_id": 400011816,
+        "fire_year": 2017,
+        "discovery_date": 1500940800000,
+        "latitude": 41.48666667,
+        "longitude": -121.04972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889671,
+        "fod_id": 400011819,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 41.40027778,
+        "longitude": -121.42916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889689,
+        "fod_id": 400011837,
+        "fire_year": 2017,
+        "discovery_date": 1500940800000,
+        "latitude": 41.49666667,
+        "longitude": -121.045,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889699,
+        "fod_id": 400011847,
+        "fire_year": 2017,
+        "discovery_date": 1501200000000,
+        "latitude": 41.33555556,
+        "longitude": -121.01777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889710,
+        "fod_id": 400011859,
+        "fire_year": 2017,
+        "discovery_date": 1502236800000,
+        "latitude": 41.45111111,
+        "longitude": -121.34,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889727,
+        "fod_id": 400011876,
+        "fire_year": 2017,
+        "discovery_date": 1503619200000,
+        "latitude": 41.49638889,
+        "longitude": -121.09666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889728,
+        "fod_id": 400011877,
+        "fire_year": 2017,
+        "discovery_date": 1501977600000,
+        "latitude": 41.36777778,
+        "longitude": -121.44527778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889735,
+        "fod_id": 400011884,
+        "fire_year": 2017,
+        "discovery_date": 1501113600000,
+        "latitude": 41.32888889,
+        "longitude": -121.06666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889749,
+        "fod_id": 400011898,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.40694444,
+        "longitude": -121.50638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889752,
+        "fod_id": 400011901,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 41.43027778,
+        "longitude": -121.47666667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889753,
+        "fod_id": 400011902,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.38916667,
+        "longitude": -121.51222222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889758,
+        "fod_id": 400011907,
+        "fire_year": 2017,
+        "discovery_date": 1501977600000,
+        "latitude": 41.48777778,
+        "longitude": -121.46472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889766,
+        "fod_id": 400011915,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.38,
+        "longitude": -121.05777778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889771,
+        "fod_id": 400011920,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.37861111,
+        "longitude": -121.0125,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889773,
+        "fod_id": 400011922,
+        "fire_year": 2017,
+        "discovery_date": 1505174400000,
+        "latitude": 41.45138889,
+        "longitude": -121.3975,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889774,
+        "fod_id": 400011923,
+        "fire_year": 2017,
+        "discovery_date": 1503964800000,
+        "latitude": 41.32444444,
+        "longitude": -121.07722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889777,
+        "fod_id": 400011926,
+        "fire_year": 2017,
+        "discovery_date": 1500940800000,
+        "latitude": 41.30666667,
+        "longitude": -121.05611111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889778,
+        "fod_id": 400011927,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 41.34361111,
+        "longitude": -121.0225,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889801,
+        "fod_id": 400011950,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.40833333,
+        "longitude": -121.08972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889805,
+        "fod_id": 400011954,
+        "fire_year": 2017,
+        "discovery_date": 1503446400000,
+        "latitude": 41.425,
+        "longitude": -121.06388889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889831,
+        "fod_id": 400011980,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 39.76611111,
+        "longitude": -121.35166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889832,
+        "fod_id": 400011981,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 39.74166667,
+        "longitude": -121.14166667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889834,
+        "fod_id": 400011983,
+        "fire_year": 2017,
+        "discovery_date": 1503792000000,
+        "latitude": 39.54861111,
+        "longitude": -121.13805556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889836,
+        "fod_id": 400011985,
+        "fire_year": 2017,
+        "discovery_date": 1504569600000,
+        "latitude": 40.01944444,
+        "longitude": -121.00277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889837,
+        "fod_id": 400011986,
+        "fire_year": 2017,
+        "discovery_date": 1507334400000,
+        "latitude": 39.92472222,
+        "longitude": -121.31527778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889838,
+        "fod_id": 400011987,
+        "fire_year": 2017,
+        "discovery_date": 1509494400000,
+        "latitude": 40.00916667,
+        "longitude": -121.23111111,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889944,
+        "fod_id": 400012102,
+        "fire_year": 2017,
+        "discovery_date": 1501632000000,
+        "latitude": 41.34444444,
+        "longitude": -122.3125,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889945,
+        "fod_id": 400012103,
+        "fire_year": 2017,
+        "discovery_date": 1499904000000,
+        "latitude": 41.23972222,
+        "longitude": -122.36027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889946,
+        "fod_id": 400012104,
+        "fire_year": 2017,
+        "discovery_date": 1500163200000,
+        "latitude": 41.27666667,
+        "longitude": -122.33,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889947,
+        "fod_id": 400012105,
+        "fire_year": 2017,
+        "discovery_date": 1498176000000,
+        "latitude": 41.30611111,
+        "longitude": -122.25222222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889948,
+        "fod_id": 400012106,
+        "fire_year": 2017,
+        "discovery_date": 1500163200000,
+        "latitude": 41.27722222,
+        "longitude": -122.33027778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889949,
+        "fod_id": 400012107,
+        "fire_year": 2017,
+        "discovery_date": 1501113600000,
+        "latitude": 41.24722222,
+        "longitude": -122.61638889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889950,
+        "fod_id": 400012108,
+        "fire_year": 2017,
+        "discovery_date": 1502841600000,
+        "latitude": 40.93972222,
+        "longitude": -122.44888889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889952,
+        "fod_id": 400012110,
+        "fire_year": 2017,
+        "discovery_date": 1499990400000,
+        "latitude": 41.22111111,
+        "longitude": -122.50444444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889953,
+        "fod_id": 400012111,
+        "fire_year": 2017,
+        "discovery_date": 1499817600000,
+        "latitude": 41.35361111,
+        "longitude": -122.25555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889954,
+        "fod_id": 400012112,
+        "fire_year": 2017,
+        "discovery_date": 1493942400000,
+        "latitude": 41.08916667,
+        "longitude": -122.35194444,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889955,
+        "fod_id": 400012113,
+        "fire_year": 2017,
+        "discovery_date": 1506211200000,
+        "latitude": 41.17194444,
+        "longitude": -122.29722222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889956,
+        "fod_id": 400012114,
+        "fire_year": 2017,
+        "discovery_date": 1502236800000,
+        "latitude": 40.99416667,
+        "longitude": -122.84277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889957,
+        "fod_id": 400012115,
+        "fire_year": 2017,
+        "discovery_date": 1502323200000,
+        "latitude": 40.14944444,
+        "longitude": -122.86,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889958,
+        "fod_id": 400012116,
+        "fire_year": 2017,
+        "discovery_date": 1502409600000,
+        "latitude": 40.14277778,
+        "longitude": -122.85555556,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1889959,
+        "fod_id": 400012117,
+        "fire_year": 2017,
+        "discovery_date": 1500336000000,
+        "latitude": 41.35638889,
+        "longitude": -122.24833333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1890026,
+        "fod_id": 400012184,
+        "fire_year": 2017,
+        "discovery_date": 1495497600000,
+        "latitude": 39.46,
+        "longitude": -121.05138889,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1890027,
+        "fod_id": 400012185,
+        "fire_year": 2017,
+        "discovery_date": 1496534400000,
+        "latitude": 39.46777778,
+        "longitude": -121.03916667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1890028,
+        "fod_id": 400012186,
+        "fire_year": 2017,
+        "discovery_date": 1501632000000,
+        "latitude": 39.40972222,
+        "longitude": -121.07277778,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1890041,
+        "fod_id": 400012199,
+        "fire_year": 2017,
+        "discovery_date": 1508112000000,
+        "latitude": 39.50222222,
+        "longitude": -121.04472222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1890042,
+        "fod_id": 400012200,
+        "fire_year": 2017,
+        "discovery_date": 1505952000000,
+        "latitude": 39.46222222,
+        "longitude": -121.13972222,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893455,
+        "fod_id": 400015794,
+        "fire_year": 2016,
+        "discovery_date": 1466899200000,
+        "latitude": 39.1556,
+        "longitude": -122.5708,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893457,
+        "fod_id": 400015796,
+        "fire_year": 2016,
+        "discovery_date": 1470096000000,
+        "latitude": 38.5156,
+        "longitude": -122.3006,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893458,
+        "fod_id": 400015797,
+        "fire_year": 2016,
+        "discovery_date": 1471046400000,
+        "latitude": 38.8997,
+        "longitude": -122.6044,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893459,
+        "fod_id": 400015798,
+        "fire_year": 2016,
+        "discovery_date": 1474761600000,
+        "latitude": 38.8053,
+        "longitude": -122.8103,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893639,
+        "fod_id": 400015985,
+        "fire_year": 2017,
+        "discovery_date": 1507248000000,
+        "latitude": 39.18578,
+        "longitude": -122.5258,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893640,
+        "fod_id": 400015986,
+        "fire_year": 2017,
+        "discovery_date": 1507420800000,
+        "latitude": 38.60895,
+        "longitude": -122.62879,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1893643,
+        "fod_id": 400015989,
+        "fire_year": 2017,
+        "discovery_date": 1507507200000,
+        "latitude": 38.7661,
+        "longitude": -122.9069,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894006,
+        "fod_id": 400016355,
+        "fire_year": 2016,
+        "discovery_date": 1471737600000,
+        "latitude": 40.48752,
+        "longitude": -121.41668,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894007,
+        "fod_id": 400016356,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.549045,
+        "longitude": -121.3674,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894008,
+        "fod_id": 400016357,
+        "fire_year": 2017,
+        "discovery_date": 1504742400000,
+        "latitude": 40.551795,
+        "longitude": -121.301389,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894009,
+        "fod_id": 400016358,
+        "fire_year": 2017,
+        "discovery_date": 1506297600000,
+        "latitude": 40.50136,
+        "longitude": -121.37543,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894039,
+        "fod_id": 400016389,
+        "fire_year": 2016,
+        "discovery_date": 1470700800000,
+        "latitude": 40.612492,
+        "longitude": -122.459323,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894046,
+        "fod_id": 400016396,
+        "fire_year": 2016,
+        "discovery_date": 1468281600000,
+        "latitude": 40.5867,
+        "longitude": -122.4547,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894048,
+        "fod_id": 400016398,
+        "fire_year": 2016,
+        "discovery_date": 1463011200000,
+        "latitude": 40.4942,
+        "longitude": -122.4983,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894054,
+        "fod_id": 400016404,
+        "fire_year": 2016,
+        "discovery_date": 1465603200000,
+        "latitude": 40.642447,
+        "longitude": -122.461623,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894055,
+        "fod_id": 400016405,
+        "fire_year": 2016,
+        "discovery_date": 1468540800000,
+        "latitude": 40.39313,
+        "longitude": -122.13667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894057,
+        "fod_id": 400016407,
+        "fire_year": 2016,
+        "discovery_date": 1471996800000,
+        "latitude": 40.7678,
+        "longitude": -122.6011,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894059,
+        "fod_id": 400016409,
+        "fire_year": 2016,
+        "discovery_date": 1473724800000,
+        "latitude": 40.294884,
+        "longitude": -122.13228,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894061,
+        "fod_id": 400016411,
+        "fire_year": 2016,
+        "discovery_date": 1473379200000,
+        "latitude": 40.5017,
+        "longitude": -122.5178,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894063,
+        "fod_id": 400016413,
+        "fire_year": 2016,
+        "discovery_date": 1473033600000,
+        "latitude": 39.69594,
+        "longitude": -121.57383,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894064,
+        "fod_id": 400016414,
+        "fire_year": 2016,
+        "discovery_date": 1458691200000,
+        "latitude": 40.586106,
+        "longitude": -122.456039,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894066,
+        "fod_id": 400016416,
+        "fire_year": 2017,
+        "discovery_date": 1503964800000,
+        "latitude": 39.5653,
+        "longitude": -121.2855,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894139,
+        "fod_id": 400016490,
+        "fire_year": 2017,
+        "discovery_date": 1496534400000,
+        "latitude": 40.3931,
+        "longitude": -122.1375,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894152,
+        "fod_id": 400016503,
+        "fire_year": 2017,
+        "discovery_date": 1497916800000,
+        "latitude": 40.690511,
+        "longitude": -122.089175,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894154,
+        "fod_id": 400016505,
+        "fire_year": 2017,
+        "discovery_date": 1498262400000,
+        "latitude": 40.5294,
+        "longitude": -122.4253,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894158,
+        "fod_id": 400016509,
+        "fire_year": 2017,
+        "discovery_date": 1499299200000,
+        "latitude": 40.3989,
+        "longitude": -122.1328,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894160,
+        "fod_id": 400016511,
+        "fire_year": 2017,
+        "discovery_date": 1500336000000,
+        "latitude": 40.471328,
+        "longitude": -122.440006,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894161,
+        "fod_id": 400016512,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.684517,
+        "longitude": -122.768936,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894162,
+        "fod_id": 400016513,
+        "fire_year": 2017,
+        "discovery_date": 1502064000000,
+        "latitude": 40.512853,
+        "longitude": -122.748897,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894165,
+        "fod_id": 400016516,
+        "fire_year": 2017,
+        "discovery_date": 1499385600000,
+        "latitude": 39.4536,
+        "longitude": -121.4122,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894166,
+        "fod_id": 400016517,
+        "fire_year": 2017,
+        "discovery_date": 1506297600000,
+        "latitude": 39.8236,
+        "longitude": -121.7208,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894366,
+        "fod_id": 400016733,
+        "fire_year": 2017,
+        "discovery_date": 1497744000000,
+        "latitude": 40.667862,
+        "longitude": -122.643953,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894367,
+        "fod_id": 400016734,
+        "fire_year": 2017,
+        "discovery_date": 1496361600000,
+        "latitude": 40.623482,
+        "longitude": -122.539561,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894368,
+        "fod_id": 400016735,
+        "fire_year": 2017,
+        "discovery_date": 1501632000000,
+        "latitude": 40.598,
+        "longitude": -122.5427,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894369,
+        "fod_id": 400016736,
+        "fire_year": 2017,
+        "discovery_date": 1501977600000,
+        "latitude": 40.568,
+        "longitude": -122.548,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1894370,
+        "fod_id": 400016737,
+        "fire_year": 2017,
+        "discovery_date": 1502582400000,
+        "latitude": 40.5763,
+        "longitude": -122.5312,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1908385,
+        "fod_id": 400031213,
+        "fire_year": 2016,
+        "discovery_date": 1468022400000,
+        "latitude": 39.438934,
+        "longitude": -122.010461,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1908697,
+        "fod_id": 400031533,
+        "fire_year": 2017,
+        "discovery_date": 1498089600000,
+        "latitude": 39.41413889,
+        "longitude": -122.13583333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1908867,
+        "fod_id": 400031718,
+        "fire_year": 2017,
+        "discovery_date": 1504137600000,
+        "latitude": 39.195362,
+        "longitude": -122.05141,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1908869,
+        "fod_id": 400031720,
+        "fire_year": 2017,
+        "discovery_date": 1504051200000,
+        "latitude": 39.613,
+        "longitude": -121.994,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1908877,
+        "fod_id": 400031730,
+        "fire_year": 2017,
+        "discovery_date": 1499299200000,
+        "latitude": 39.5995,
+        "longitude": -121.9095,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1908909,
+        "fod_id": 400031763,
+        "fire_year": 2017,
+        "discovery_date": 1506988800000,
+        "latitude": 39.396936,
+        "longitude": -122.173667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909556,
+        "fod_id": 400032968,
+        "fire_year": 2016,
+        "discovery_date": 1460764800000,
+        "latitude": 41.111417,
+        "longitude": -121.267517,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909685,
+        "fod_id": 400033099,
+        "fire_year": 2016,
+        "discovery_date": 1462320000000,
+        "latitude": 41.072933,
+        "longitude": -121.175567,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909693,
+        "fod_id": 400033107,
+        "fire_year": 2016,
+        "discovery_date": 1462406400000,
+        "latitude": 41.463025,
+        "longitude": -122.40087,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909696,
+        "fod_id": 400033110,
+        "fire_year": 2016,
+        "discovery_date": 1462406400000,
+        "latitude": 41.4822,
+        "longitude": -122.42295,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909699,
+        "fod_id": 400033113,
+        "fire_year": 2016,
+        "discovery_date": 1462406400000,
+        "latitude": 41.470717,
+        "longitude": -122.407933,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909713,
+        "fod_id": 400033129,
+        "fire_year": 2016,
+        "discovery_date": 1462492800000,
+        "latitude": 41.411683,
+        "longitude": -122.88415,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1909829,
+        "fod_id": 400033246,
+        "fire_year": 2016,
+        "discovery_date": 1463702400000,
+        "latitude": 40.257,
+        "longitude": -121.289017,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1910058,
+        "fod_id": 400033486,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 41.3973,
+        "longitude": -122.704,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1910188,
+        "fod_id": 400033634,
+        "fire_year": 2016,
+        "discovery_date": 1465948800000,
+        "latitude": 40.46895,
+        "longitude": -122.623883,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1910630,
+        "fod_id": 400034137,
+        "fire_year": 2016,
+        "discovery_date": 1468022400000,
+        "latitude": 40.4795,
+        "longitude": -122.156167,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1911460,
+        "fod_id": 400035052,
+        "fire_year": 2016,
+        "discovery_date": 1470355200000,
+        "latitude": 41.4582,
+        "longitude": -122.9078,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1911895,
+        "fod_id": 400035593,
+        "fire_year": 2016,
+        "discovery_date": 1473638400000,
+        "latitude": 40.25885,
+        "longitude": -121.004833,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912010,
+        "fod_id": 400035731,
+        "fire_year": 2016,
+        "discovery_date": 1475366400000,
+        "latitude": 39.7152,
+        "longitude": -121.497753,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912012,
+        "fod_id": 400035733,
+        "fire_year": 2016,
+        "discovery_date": 1475366400000,
+        "latitude": 39.753302,
+        "longitude": -121.552584,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912013,
+        "fod_id": 400035734,
+        "fire_year": 2016,
+        "discovery_date": 1475366400000,
+        "latitude": 40.418833,
+        "longitude": -122.501167,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912014,
+        "fod_id": 400035735,
+        "fire_year": 2016,
+        "discovery_date": 1475452800000,
+        "latitude": 39.616,
+        "longitude": -121.173417,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912015,
+        "fod_id": 400035736,
+        "fire_year": 2016,
+        "discovery_date": 1475366400000,
+        "latitude": 39.804104,
+        "longitude": -121.4508,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912016,
+        "fod_id": 400035737,
+        "fire_year": 2016,
+        "discovery_date": 1475452800000,
+        "latitude": 40.239,
+        "longitude": -121.720333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912017,
+        "fod_id": 400035738,
+        "fire_year": 2016,
+        "discovery_date": 1475452800000,
+        "latitude": 40.302333,
+        "longitude": -121.694667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912022,
+        "fod_id": 400035744,
+        "fire_year": 2016,
+        "discovery_date": 1475452800000,
+        "latitude": 39.889367,
+        "longitude": -121.4568,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912023,
+        "fod_id": 400035745,
+        "fire_year": 2016,
+        "discovery_date": 1475539200000,
+        "latitude": 40.53555,
+        "longitude": -121.798117,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912024,
+        "fod_id": 400035746,
+        "fire_year": 2016,
+        "discovery_date": 1475539200000,
+        "latitude": 39.901283,
+        "longitude": -121.470067,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912027,
+        "fod_id": 400035751,
+        "fire_year": 2016,
+        "discovery_date": 1475712000000,
+        "latitude": 39.95025,
+        "longitude": -121.656983,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912029,
+        "fod_id": 400035753,
+        "fire_year": 2016,
+        "discovery_date": 1475884800000,
+        "latitude": 39.9,
+        "longitude": -121.445667,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1912036,
+        "fod_id": 400035761,
+        "fire_year": 2016,
+        "discovery_date": 1476057600000,
+        "latitude": 40.560083,
+        "longitude": -121.777333,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1915231,
+        "fod_id": 400039306,
+        "fire_year": 2016,
+        "discovery_date": 1462924800000,
+        "latitude": 38.704192,
+        "longitude": -121.43372,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1915232,
+        "fod_id": 400039307,
+        "fire_year": 2016,
+        "discovery_date": 1465776000000,
+        "latitude": 38.691475,
+        "longitude": -121.475341,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1915233,
+        "fod_id": 400039308,
+        "fire_year": 2016,
+        "discovery_date": 1467072000000,
+        "latitude": 38.95,
+        "longitude": -121.666666,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1915234,
+        "fod_id": 400039309,
+        "fire_year": 2016,
+        "discovery_date": 1474329600000,
+        "latitude": 38.833333,
+        "longitude": -121.366666,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1916982,
+        "fod_id": 400041103,
+        "fire_year": 2016,
+        "discovery_date": 1462147200000,
+        "latitude": 40.431753,
+        "longitude": -122.237443,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1916997,
+        "fod_id": 400041118,
+        "fire_year": 2016,
+        "discovery_date": 1462233600000,
+        "latitude": 39.452006,
+        "longitude": -121.576964,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917082,
+        "fod_id": 400041206,
+        "fire_year": 2016,
+        "discovery_date": 1463011200000,
+        "latitude": 39.012127,
+        "longitude": -121.356185,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917084,
+        "fod_id": 400041208,
+        "fire_year": 2016,
+        "discovery_date": 1463011200000,
+        "latitude": 39.366879,
+        "longitude": -121.215782,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917089,
+        "fod_id": 400041213,
+        "fire_year": 2016,
+        "discovery_date": 1463097600000,
+        "latitude": 39.876329,
+        "longitude": -122.325213,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917092,
+        "fod_id": 400041216,
+        "fire_year": 2016,
+        "discovery_date": 1463097600000,
+        "latitude": 39.278435,
+        "longitude": -121.366048,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917094,
+        "fod_id": 400041219,
+        "fire_year": 2016,
+        "discovery_date": 1463184000000,
+        "latitude": 39.420787,
+        "longitude": -121.476274,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917108,
+        "fod_id": 400041233,
+        "fire_year": 2016,
+        "discovery_date": 1463356800000,
+        "latitude": 38.824583,
+        "longitude": -121.349272,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917109,
+        "fod_id": 400041234,
+        "fire_year": 2016,
+        "discovery_date": 1463356800000,
+        "latitude": 40.092975,
+        "longitude": -122.091059,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917110,
+        "fod_id": 400041235,
+        "fire_year": 2016,
+        "discovery_date": 1463356800000,
+        "latitude": 39.290737,
+        "longitude": -121.47717,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917129,
+        "fod_id": 400041254,
+        "fire_year": 2016,
+        "discovery_date": 1463443200000,
+        "latitude": 39.957166,
+        "longitude": -122.155707,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917138,
+        "fod_id": 400041263,
+        "fire_year": 2016,
+        "discovery_date": 1463529600000,
+        "latitude": 40.001479,
+        "longitude": -122.290481,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917179,
+        "fod_id": 400041305,
+        "fire_year": 2016,
+        "discovery_date": 1463788800000,
+        "latitude": 39.000727,
+        "longitude": -121.299324,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917203,
+        "fod_id": 400041331,
+        "fire_year": 2016,
+        "discovery_date": 1463961600000,
+        "latitude": 39.875078,
+        "longitude": -122.188023,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917249,
+        "fod_id": 400041378,
+        "fire_year": 2016,
+        "discovery_date": 1464307200000,
+        "latitude": 39.13755,
+        "longitude": -121.312274,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917256,
+        "fod_id": 400041385,
+        "fire_year": 2016,
+        "discovery_date": 1464307200000,
+        "latitude": 39.252854,
+        "longitude": -121.337225,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917257,
+        "fod_id": 400041386,
+        "fire_year": 2016,
+        "discovery_date": 1464307200000,
+        "latitude": 38.846183,
+        "longitude": -121.407882,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917258,
+        "fod_id": 400041387,
+        "fire_year": 2016,
+        "discovery_date": 1464307200000,
+        "latitude": 40.150337,
+        "longitude": -122.27648,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917269,
+        "fod_id": 400041398,
+        "fire_year": 2016,
+        "discovery_date": 1464393600000,
+        "latitude": 39.130012,
+        "longitude": -121.159178,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917317,
+        "fod_id": 400041447,
+        "fire_year": 2016,
+        "discovery_date": 1464825600000,
+        "latitude": 38.553847,
+        "longitude": -121.004169,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917324,
+        "fod_id": 400041454,
+        "fire_year": 2016,
+        "discovery_date": 1464825600000,
+        "latitude": 40.021262,
+        "longitude": -122.243028,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917338,
+        "fod_id": 400041469,
+        "fire_year": 2016,
+        "discovery_date": 1464998400000,
+        "latitude": 38.659496,
+        "longitude": -121.001613,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917340,
+        "fod_id": 400041471,
+        "fire_year": 2016,
+        "discovery_date": 1464998400000,
+        "latitude": 39.340981,
+        "longitude": -121.724284,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917350,
+        "fod_id": 400041481,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 38.897112,
+        "longitude": -121.417527,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917353,
+        "fod_id": 400041484,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 39.168543,
+        "longitude": -121.199018,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917354,
+        "fod_id": 400041485,
+        "fire_year": 2016,
+        "discovery_date": 1465084800000,
+        "latitude": 38.971982,
+        "longitude": -121.135362,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917357,
+        "fod_id": 400041489,
+        "fire_year": 2016,
+        "discovery_date": 1465171200000,
+        "latitude": 39.944933,
+        "longitude": -122.164901,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917364,
+        "fod_id": 400041496,
+        "fire_year": 2016,
+        "discovery_date": 1465257600000,
+        "latitude": 39.102809,
+        "longitude": -122.909867,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917372,
+        "fod_id": 400041504,
+        "fire_year": 2016,
+        "discovery_date": 1465344000000,
+        "latitude": 38.951158,
+        "longitude": -121.079566,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917384,
+        "fod_id": 400041516,
+        "fire_year": 2016,
+        "discovery_date": 1465430400000,
+        "latitude": 40.502655,
+        "longitude": -122.333179,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917395,
+        "fod_id": 400041527,
+        "fire_year": 2016,
+        "discovery_date": 1465430400000,
+        "latitude": 39.430147,
+        "longitude": -121.504619,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917410,
+        "fod_id": 400041543,
+        "fire_year": 2016,
+        "discovery_date": 1465516800000,
+        "latitude": 40.279554,
+        "longitude": -122.491787,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917415,
+        "fod_id": 400041548,
+        "fire_year": 2016,
+        "discovery_date": 1465516800000,
+        "latitude": 39.502867,
+        "longitude": -121.582602,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917417,
+        "fod_id": 400041550,
+        "fire_year": 2016,
+        "discovery_date": 1465603200000,
+        "latitude": 39.199552,
+        "longitude": -121.084665,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917421,
+        "fod_id": 400041554,
+        "fire_year": 2016,
+        "discovery_date": 1465603200000,
+        "latitude": 38.786343,
+        "longitude": -122.177524,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917428,
+        "fod_id": 400041561,
+        "fire_year": 2016,
+        "discovery_date": 1465689600000,
+        "latitude": 39.576062,
+        "longitude": -122.608646,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917433,
+        "fod_id": 400041567,
+        "fire_year": 2016,
+        "discovery_date": 1465689600000,
+        "latitude": 39.379025,
+        "longitude": -121.383095,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917436,
+        "fod_id": 400041570,
+        "fire_year": 2016,
+        "discovery_date": 1465776000000,
+        "latitude": 38.540369,
+        "longitude": -122.236798,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917449,
+        "fod_id": 400041583,
+        "fire_year": 2016,
+        "discovery_date": 1465862400000,
+        "latitude": 38.758128,
+        "longitude": -122.913469,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917472,
+        "fod_id": 400041610,
+        "fire_year": 2016,
+        "discovery_date": 1466035200000,
+        "latitude": 39.646338,
+        "longitude": -121.536859,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917561,
+        "fod_id": 400041703,
+        "fire_year": 2016,
+        "discovery_date": 1466380800000,
+        "latitude": 38.834862,
+        "longitude": -121.104317,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917577,
+        "fod_id": 400041720,
+        "fire_year": 2016,
+        "discovery_date": 1466467200000,
+        "latitude": 39.361135,
+        "longitude": -121.247956,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917583,
+        "fod_id": 400041726,
+        "fire_year": 2016,
+        "discovery_date": 1466467200000,
+        "latitude": 38.868034,
+        "longitude": -121.384245,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917593,
+        "fod_id": 400041737,
+        "fire_year": 2016,
+        "discovery_date": 1466553600000,
+        "latitude": 39.706281,
+        "longitude": -121.742986,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917604,
+        "fod_id": 400041750,
+        "fire_year": 2016,
+        "discovery_date": 1466553600000,
+        "latitude": 38.824144,
+        "longitude": -122.997808,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917615,
+        "fod_id": 400041761,
+        "fire_year": 2016,
+        "discovery_date": 1466640000000,
+        "latitude": 38.826947,
+        "longitude": -122.890048,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917663,
+        "fod_id": 400041814,
+        "fire_year": 2016,
+        "discovery_date": 1466812800000,
+        "latitude": 39.414238,
+        "longitude": -121.498826,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917697,
+        "fod_id": 400041850,
+        "fire_year": 2016,
+        "discovery_date": 1466985600000,
+        "latitude": 39.645262,
+        "longitude": -121.724362,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917722,
+        "fod_id": 400041878,
+        "fire_year": 2016,
+        "discovery_date": 1467072000000,
+        "latitude": 38.756443,
+        "longitude": -122.640119,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917736,
+        "fod_id": 400041895,
+        "fire_year": 2016,
+        "discovery_date": 1467158400000,
+        "latitude": 39.498052,
+        "longitude": -121.59189,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917761,
+        "fod_id": 400041924,
+        "fire_year": 2016,
+        "discovery_date": 1467331200000,
+        "latitude": 40.365469,
+        "longitude": -122.329989,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917777,
+        "fod_id": 400041941,
+        "fire_year": 2016,
+        "discovery_date": 1467417600000,
+        "latitude": 38.793472,
+        "longitude": -121.137481,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917796,
+        "fod_id": 400041963,
+        "fire_year": 2016,
+        "discovery_date": 1467504000000,
+        "latitude": 40.63285,
+        "longitude": -122.296767,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917797,
+        "fod_id": 400041964,
+        "fire_year": 2016,
+        "discovery_date": 1467504000000,
+        "latitude": 38.736277,
+        "longitude": -121.466439,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917844,
+        "fod_id": 400042015,
+        "fire_year": 2016,
+        "discovery_date": 1467763200000,
+        "latitude": 39.232811,
+        "longitude": -121.411909,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917845,
+        "fod_id": 400042016,
+        "fire_year": 2016,
+        "discovery_date": 1467763200000,
+        "latitude": 38.91595,
+        "longitude": -121.184674,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917846,
+        "fod_id": 400042017,
+        "fire_year": 2016,
+        "discovery_date": 1467763200000,
+        "latitude": 39.680627,
+        "longitude": -121.790546,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917875,
+        "fod_id": 400042049,
+        "fire_year": 2016,
+        "discovery_date": 1467936000000,
+        "latitude": 40.491167,
+        "longitude": -122.054517,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917895,
+        "fod_id": 400042076,
+        "fire_year": 2016,
+        "discovery_date": 1468108800000,
+        "latitude": 39.066807,
+        "longitude": -121.087736,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917900,
+        "fod_id": 400042081,
+        "fire_year": 2016,
+        "discovery_date": 1468108800000,
+        "latitude": 38.736182,
+        "longitude": -121.063648,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917905,
+        "fod_id": 400042091,
+        "fire_year": 2016,
+        "discovery_date": 1468108800000,
+        "latitude": 38.907138,
+        "longitude": -121.358413,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917913,
+        "fod_id": 400042099,
+        "fire_year": 2016,
+        "discovery_date": 1468195200000,
+        "latitude": 40.127189,
+        "longitude": -122.202099,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917923,
+        "fod_id": 400042113,
+        "fire_year": 2016,
+        "discovery_date": 1468281600000,
+        "latitude": 39.208988,
+        "longitude": -121.25092,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1917965,
+        "fod_id": 400042158,
+        "fire_year": 2016,
+        "discovery_date": 1468454400000,
+        "latitude": 38.906938,
+        "longitude": -121.142892,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918014,
+        "fod_id": 400042214,
+        "fire_year": 2016,
+        "discovery_date": 1468800000000,
+        "latitude": 40.393121,
+        "longitude": -122.383211,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918026,
+        "fod_id": 400042229,
+        "fire_year": 2016,
+        "discovery_date": 1468886400000,
+        "latitude": 40.4506,
+        "longitude": -121.903817,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918057,
+        "fod_id": 400042265,
+        "fire_year": 2016,
+        "discovery_date": 1469059200000,
+        "latitude": 39.343698,
+        "longitude": -121.535068,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918086,
+        "fod_id": 400042296,
+        "fire_year": 2016,
+        "discovery_date": 1469232000000,
+        "latitude": 38.736434,
+        "longitude": -121.012283,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918145,
+        "fod_id": 400042371,
+        "fire_year": 2016,
+        "discovery_date": 1469145600000,
+        "latitude": 38.790695,
+        "longitude": -121.010566,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918166,
+        "fod_id": 400042395,
+        "fire_year": 2016,
+        "discovery_date": 1469577600000,
+        "latitude": 38.912928,
+        "longitude": -121.116759,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918182,
+        "fod_id": 400042413,
+        "fire_year": 2016,
+        "discovery_date": 1469664000000,
+        "latitude": 39.372134,
+        "longitude": -121.712595,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918206,
+        "fod_id": 400042442,
+        "fire_year": 2016,
+        "discovery_date": 1469836800000,
+        "latitude": 40.343722,
+        "longitude": -122.352694,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918258,
+        "fod_id": 400042505,
+        "fire_year": 2016,
+        "discovery_date": 1470182400000,
+        "latitude": 38.867939,
+        "longitude": -121.41436,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918299,
+        "fod_id": 400042553,
+        "fire_year": 2016,
+        "discovery_date": 1470355200000,
+        "latitude": 40.011229,
+        "longitude": -122.442609,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918303,
+        "fod_id": 400042557,
+        "fire_year": 2016,
+        "discovery_date": 1470441600000,
+        "latitude": 39.885015,
+        "longitude": -122.210582,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918325,
+        "fod_id": 400042580,
+        "fire_year": 2016,
+        "discovery_date": 1470614400000,
+        "latitude": 39.746091,
+        "longitude": -121.892724,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918327,
+        "fod_id": 400042582,
+        "fire_year": 2016,
+        "discovery_date": 1470614400000,
+        "latitude": 39.230149,
+        "longitude": -121.398418,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918355,
+        "fod_id": 400042615,
+        "fire_year": 2016,
+        "discovery_date": 1470787200000,
+        "latitude": 38.752041,
+        "longitude": -122.161699,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918379,
+        "fod_id": 400042641,
+        "fire_year": 2016,
+        "discovery_date": 1470960000000,
+        "latitude": 38.621188,
+        "longitude": -121.036756,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918415,
+        "fod_id": 400042686,
+        "fire_year": 2016,
+        "discovery_date": 1471305600000,
+        "latitude": 39.323381,
+        "longitude": -121.419368,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918418,
+        "fod_id": 400042689,
+        "fire_year": 2016,
+        "discovery_date": 1471305600000,
+        "latitude": 39.086276,
+        "longitude": -122.92569,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918422,
+        "fod_id": 400042693,
+        "fire_year": 2016,
+        "discovery_date": 1471305600000,
+        "latitude": 39.065077,
+        "longitude": -121.121145,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918451,
+        "fod_id": 400042729,
+        "fire_year": 2016,
+        "discovery_date": 1471564800000,
+        "latitude": 39.24668,
+        "longitude": -121.216492,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918460,
+        "fod_id": 400042739,
+        "fire_year": 2016,
+        "discovery_date": 1471651200000,
+        "latitude": 38.804525,
+        "longitude": -121.164985,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918474,
+        "fod_id": 400042754,
+        "fire_year": 2016,
+        "discovery_date": 1471824000000,
+        "latitude": 38.846756,
+        "longitude": -121.202379,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918485,
+        "fod_id": 400042767,
+        "fire_year": 2016,
+        "discovery_date": 1471910400000,
+        "latitude": 41.283917,
+        "longitude": -122.300967,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918516,
+        "fod_id": 400042801,
+        "fire_year": 2016,
+        "discovery_date": 1472083200000,
+        "latitude": 40.001412,
+        "longitude": -122.283187,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918519,
+        "fod_id": 400042804,
+        "fire_year": 2016,
+        "discovery_date": 1472083200000,
+        "latitude": 39.294312,
+        "longitude": -121.03522,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918543,
+        "fod_id": 400042832,
+        "fire_year": 2016,
+        "discovery_date": 1472256000000,
+        "latitude": 38.857263,
+        "longitude": -121.21056,
+        "state": "CA"
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 1918563,
+        "fod_id": 400042852,
+        "fire_year": 2016,
+        "discovery_date": 1472428800000,
+        "latitude": 40.3014,
+        "longitude": -121.27015,
+        "state": "CA"
+      }
+    }
+  ]
+}

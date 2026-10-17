@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "selected_name": "history_120__weather_0.75",
+  "sha256": "f8160573882b6029b260e1c93be3f618dd3663f5690110c347bbcf782ec8e8b2",
+  "trained_history_through": "2021-12-31",
+  "history_start": "2012-01-01",
+  "tree_training_years": [
+    2013,
+    2021
+  ],
+  "features": [
+    "latitude",
+    "longitude",
+    "season_sin",
+    "season_cos",
+    "tmax_lag1",
+    "tmax_mean7",
+    "tmax_max7",
+    "rhmin_lag1",
+    "rhmin_mean7",
+    "rhmin_min7",
+    "windmax_lag1",
+    "windmax_max3",
+    "rain_lag1",
+    "rain_sum7",
+    "rain_sum14",
+    "rain_sum30",
+    "dry_days",
+    "cell_code",
+    "month",
+    "weekday",
+    "historical_prior",
+    "tmax_lag1_anomaly",
+    "tmax_mean7_anomaly",
+    "rhmin_lag1_anomaly",
+    "windmax_lag1_anomaly",
+    "rain_sum7_anomaly",
+    "rain_sum30_anomaly"
+  ],
+  "weather_weight": 0.75,
+  "threshold": 0.24631571218132325,
+  "architecture": "s390x",
+  "python": "3.12.15",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.6.0",
+    "scipy": "1.13.1"
+  },
+  "runtime_image": "registry.linuxone.cloud.marist.edu/l1cc/jupyterlab-image-s390x@sha256:d2da8a7b0c88c3b468e29014b2ada9ef8274f98c976ec456904c5e2bae5aa54c",
+  "benchmark_status": "REUSED 2022\u20132024 benchmark; not independent confirmation",
+  "verification": {
+    "full_benchmark_replay_rows": 26304,
+    "maximum_absolute_score_difference": 0.0,
+    "cli_and_invalid_input_checks_passed": true,
+    "development_unit_tests_passed": 25
+  },
+  "runtime_files": {
+    "model.joblib": "f8160573882b6029b260e1c93be3f618dd3663f5690110c347bbcf782ec8e8b2",
+    "predict.py": "a1fdfdac1fb2827d07bf43e335d987f81c0a388c29d3f217746cfdee97d7cf1f",
+    "requirements.txt": "7f5f68f3fa0ad2c2340d069a2439fa17f0ea8a9b2d9eb94b27ce647fcf5e365a"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "cell_id": "r0c0",
+    "row": 0,
+    "column": 0,
+    "latitude": 38.75,
+    "longitude": -122.75
+  },
+  {
+    "cell_id": "r0c1",
+    "row": 0,
+    "column": 1,
+    "latitude": 38.75,
+    "longitude": -122.25
+  },
+  {
+    "cell_id": "r0c2",
+    "row": 0,
+    "column": 2,
+    "latitude": 38.75,
+    "longitude": -121.75
+  },
+  {
+    "cell_id": "r0c3",
+    "row": 0,
+    "column": 3,
+    "latitude": 38.75,
+    "longitude": -121.25
+  },
+  {
+    "cell_id": "r1c0",
+    "row": 1,
+    "column": 0,
+    "latitude": 39.25,
+    "longitude": -122.75
+  },
+  {
+    "cell_id": "r1c1",
+    "row": 1,
+    "column": 1,
+    "latitude": 39.25,
+    "longitude": -122.25
+  },
+  {
+    "cell_id": "r1c2",
+    "row": 1,
+    "column": 2,
+    "latitude": 39.25,
+    "longitude": -121.75
+  },
+  {
+    "cell_id": "r1c3",
+    "row": 1,
+    "column": 3,
+    "latitude": 39.25,
+    "longitude": -121.25
+  },
+  {
+    "cell_id": "r2c0",
+    "row": 2,
+    "column": 0,
+    "latitude": 39.75,
+    "longitude": -122.75
+  },
+  {
+    "cell_id": "r2c1",
+    "row": 2,
+    "column": 1,
+    "latitude": 39.75,
+    "longitude": -122.25
+  },
+  {
+    "cell_id": "r2c2",
+    "row": 2,
+    "column": 2,
+    "latitude": 39.75,
+    "longitude": -121.75
+  },
+  {
+    "cell_id": "r2c3",
+    "row": 2,
+    "column": 3,
+    "latitude": 39.75,
+    "longitude": -121.25
+  },
+  {
+    "cell_id": "r3c0",
+    "row": 3,
+    "column": 0,
+    "latitude": 40.25,
+    "longitude": -122.75
+  },
+  {
+    "cell_id": "r3c1",
+    "row": 3,
+    "column": 1,
+    "latitude": 40.25,
+    "longitude": -122.25
+  },
+  {
+    "cell_id": "r3c2",
+    "row": 3,
+    "column": 2,
+    "latitude": 40.25,
+    "longitude": -121.75
+  },
+  {
+    "cell_id": "r3c3",
+    "row": 3,
+    "column": 3,
+    "latitude": 40.25,
+    "longitude": -121.25
+  },
+  {
+    "cell_id": "r4c0",
+    "row": 4,
+    "column": 0,
+    "latitude": 40.75,
+    "longitude": -122.75
+  },
+  {
+    "cell_id": "r4c1",
+    "row": 4,
+    "column": 1,
+    "latitude": 40.75,
+    "longitude": -122.25
+  },
+  {
+    "cell_id": "r4c2",
+    "row": 4,
+    "column": 2,
+    "latitude": 40.75,
+    "longitude": -121.75
+  },
+  {
+    "cell_id": "r4c3",
+    "row": 4,
+    "column": 3,
+    "latitude": 40.75,
+    "longitude": -121.25
+  },
+  {
+    "cell_id": "r5c0",
+    "row": 5,
+    "column": 0,
+    "latitude": 41.25,
+    "longitude": -122.75
+  },
+  {
+    "cell_id": "r5c1",
+    "row": 5,
+    "column": 1,
+    "latitude": 41.25,
+    "longitude": -122.25
+  },
+  {
+    "cell_id": "r5c2",
+    "row": 5,
+    "column": 2,
+    "latitude": 41.25,
+    "longitude": -121.75
+  },
+  {
+    "cell_id": "r5c3",
+    "row": 5,
+    "column": 3,
+    "latitude": 41.25,
+    "longitude": -121.25
+  }
+]

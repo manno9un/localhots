@@ -1,0 +1,439 @@
+{
+  "provider": "USGS 3DEP ImageServer getSamples",
+  "units": "meters",
+  "points": [
+    {
+      "cell_id": "r0c0",
+      "elevation_m": 875.662475586,
+      "response": {
+        "location": {
+          "x": -122.75,
+          "y": 38.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 0,
+        "value": "875.662475586",
+        "rasterId": 83871,
+        "resolution": 0.9999999999999971
+      }
+    },
+    {
+      "cell_id": "r0c1",
+      "elevation_m": 564.272094727,
+      "response": {
+        "location": {
+          "x": -122.25,
+          "y": 38.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 1,
+        "value": "564.272094727",
+        "rasterId": 59563,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r0c2",
+      "elevation_m": 10.370368004,
+      "response": {
+        "location": {
+          "x": -121.75,
+          "y": 38.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 2,
+        "value": "10.370368004",
+        "rasterId": 38566,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r0c3",
+      "elevation_m": 74.550384521,
+      "response": {
+        "location": {
+          "x": -121.25,
+          "y": 38.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 3,
+        "value": "74.550384521",
+        "rasterId": 27870,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r1c0",
+      "elevation_m": 997.043334961,
+      "response": {
+        "location": {
+          "x": -122.75,
+          "y": 39.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 4,
+        "value": "997.043334961",
+        "rasterId": 46957,
+        "resolution": 1.0000000000000029
+      }
+    },
+    {
+      "cell_id": "r1c1",
+      "elevation_m": 37.727573395,
+      "response": {
+        "location": {
+          "x": -122.25,
+          "y": 39.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 5,
+        "value": "37.727573395",
+        "rasterId": 5303,
+        "resolution": 9.259259341472414e-05
+      }
+    },
+    {
+      "cell_id": "r1c2",
+      "elevation_m": 24.626976013,
+      "response": {
+        "location": {
+          "x": -121.75,
+          "y": 39.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 6,
+        "value": "24.626976013",
+        "rasterId": 5034,
+        "resolution": 9.259259341472414e-05
+      }
+    },
+    {
+      "cell_id": "r1c3",
+      "elevation_m": 285.813293457,
+      "response": {
+        "location": {
+          "x": -121.25,
+          "y": 39.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 7,
+        "value": "285.813293457",
+        "rasterId": 94992,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r2c0",
+      "elevation_m": 928.202880859,
+      "response": {
+        "location": {
+          "x": -122.75,
+          "y": 39.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 8,
+        "value": "928.202880859",
+        "rasterId": 83216,
+        "resolution": 1.0000000000000029
+      }
+    },
+    {
+      "cell_id": "r2c1",
+      "elevation_m": 91.271118164,
+      "response": {
+        "location": {
+          "x": -122.25,
+          "y": 39.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 9,
+        "value": "91.271118164",
+        "rasterId": 57247,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r2c2",
+      "elevation_m": 211.066253662,
+      "response": {
+        "location": {
+          "x": -121.75,
+          "y": 39.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 10,
+        "value": "211.066253662",
+        "rasterId": 83479,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r2c3",
+      "elevation_m": 1053.041015625,
+      "response": {
+        "location": {
+          "x": -121.25,
+          "y": 39.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 11,
+        "value": "1053.041015625",
+        "rasterId": 101509,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r3c0",
+      "elevation_m": 414.331237793,
+      "response": {
+        "location": {
+          "x": -122.75,
+          "y": 40.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 12,
+        "value": "414.331237793",
+        "rasterId": 101025,
+        "resolution": 0.9999999999999971
+      }
+    },
+    {
+      "cell_id": "r3c1",
+      "elevation_m": 137.010147095,
+      "response": {
+        "location": {
+          "x": -122.25,
+          "y": 40.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 13,
+        "value": "137.010147095",
+        "rasterId": 16989,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r3c2",
+      "elevation_m": 925.021362305,
+      "response": {
+        "location": {
+          "x": -121.75,
+          "y": 40.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 14,
+        "value": "925.021362305",
+        "rasterId": 20528,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r3c3",
+      "elevation_m": 1412.106811523,
+      "response": {
+        "location": {
+          "x": -121.25,
+          "y": 40.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 15,
+        "value": "1412.106811523",
+        "rasterId": 22462,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r4c0",
+      "elevation_m": 878.150817871,
+      "response": {
+        "location": {
+          "x": -122.75,
+          "y": 40.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 16,
+        "value": "878.150817871",
+        "rasterId": 128939,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r4c1",
+      "elevation_m": 358.285888672,
+      "response": {
+        "location": {
+          "x": -122.25,
+          "y": 40.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 17,
+        "value": "358.285888672",
+        "rasterId": 82431,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r4c2",
+      "elevation_m": 1816.305786133,
+      "response": {
+        "location": {
+          "x": -121.75,
+          "y": 40.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 18,
+        "value": "1816.305786133",
+        "rasterId": 5237,
+        "resolution": 9.259259341472414e-05
+      }
+    },
+    {
+      "cell_id": "r4c3",
+      "elevation_m": 1733.783935547,
+      "response": {
+        "location": {
+          "x": -121.25,
+          "y": 40.75,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 19,
+        "value": "1733.783935547",
+        "rasterId": 5237,
+        "resolution": 9.259259341472414e-05
+      }
+    },
+    {
+      "cell_id": "r5c0",
+      "elevation_m": 2019.793823242,
+      "response": {
+        "location": {
+          "x": -122.75,
+          "y": 41.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 20,
+        "value": "2019.793823242",
+        "rasterId": 60499,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r5c1",
+      "elevation_m": 930.29083252,
+      "response": {
+        "location": {
+          "x": -122.25,
+          "y": 41.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 21,
+        "value": "930.290832520",
+        "rasterId": 126978,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r5c2",
+      "elevation_m": 1388.18371582,
+      "response": {
+        "location": {
+          "x": -121.75,
+          "y": 41.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 22,
+        "value": "1388.183715820",
+        "rasterId": 62077,
+        "resolution": 1
+      }
+    },
+    {
+      "cell_id": "r5c3",
+      "elevation_m": 1472.647338867,
+      "response": {
+        "location": {
+          "x": -121.25,
+          "y": 41.25,
+          "spatialReference": {
+            "wkid": 4326,
+            "latestWkid": 4326
+          }
+        },
+        "locationId": 23,
+        "value": "1472.647338867",
+        "rasterId": 59971,
+        "resolution": 1
+      }
+    }
+  ],
+  "request_url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/getSamples?geometry=%7B%22points%22%3A+%5B%5B-122.75%2C+38.75%5D%2C+%5B-122.25%2C+38.75%5D%2C+%5B-121.75%2C+38.75%5D%2C+%5B-121.25%2C+38.75%5D%2C+%5B-122.75%2C+39.25%5D%2C+%5B-122.25%2C+39.25%5D%2C+%5B-121.75%2C+39.25%5D%2C+%5B-121.25%2C+39.25%5D%2C+%5B-122.75%2C+39.75%5D%2C+%5B-122.25%2C+39.75%5D%2C+%5B-121.75%2C+39.75%5D%2C+%5B-121.25%2C+39.75%5D%2C+%5B-122.75%2C+40.25%5D%2C+%5B-122.25%2C+40.25%5D%2C+%5B-121.75%2C+40.25%5D%2C+%5B-121.25%2C+40.25%5D%2C+%5B-122.75%2C+40.75%5D%2C+%5B-122.25%2C+40.75%5D%2C+%5B-121.75%2C+40.75%5D%2C+%5B-121.25%2C+40.75%5D%2C+%5B-122.75%2C+41.25%5D%2C+%5B-122.25%2C+41.25%5D%2C+%5B-121.75%2C+41.25%5D%2C+%5B-121.25%2C+41.25%5D%5D%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%7D&geometryType=esriGeometryMultipoint&returnFirstValueOnly=true&f=json"
+}

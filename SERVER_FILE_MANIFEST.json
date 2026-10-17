@@ -1,0 +1,524 @@
+{
+  "source_host": "148.100.109.228",
+  "source_home": "/home/linux1",
+  "files": [
+    {
+      "path": "wildfire-site/app/server.py",
+      "bytes": 15700,
+      "sha256": "b969a882407f556bbd1fdf1cec94d4b6f99156084c7a9c05e4bda6712d40b862"
+    },
+    {
+      "path": "wildfire-site/app/static/app.js",
+      "bytes": 21856,
+      "sha256": "f9c9a48f969eec9b11240357ed37130f1b0d9cd4fbf4d06bbebc963099f637f2"
+    },
+    {
+      "path": "wildfire-site/app/static/index.html",
+      "bytes": 13511,
+      "sha256": "cf95f1b315e5a23d30957469fa957dc29cbd27fa575b89c73275169cf81e2aa6"
+    },
+    {
+      "path": "wildfire-site/app/static/style.css",
+      "bytes": 15189,
+      "sha256": "d492c9b444be1213ef34b993974b3180a94c6f1d67b79913070e325f4d558696"
+    },
+    {
+      "path": "wildfire-site/deploy/run.sh",
+      "bytes": 1171,
+      "sha256": "cd5500e11b6b98dbcf62ce5bf16fe518583d395dd6743a92ec62798b1211afb5"
+    },
+    {
+      "path": "wildfire-outlook/datasets/included_fires.csv",
+      "bytes": 1434721,
+      "sha256": "c4d653cb272eb2c1b253741ec55a681abd8974f7493f13f20dfe4303ed22ce99"
+    },
+    {
+      "path": "wildfire-outlook/datasets/manifest.json",
+      "bytes": 27219,
+      "sha256": "185def6468f32d8f033cd1d4146213c9927aa548a59b0910439777f9600f531c"
+    },
+    {
+      "path": "wildfire-outlook/datasets/model_inputs.csv.gz",
+      "bytes": 6219877,
+      "sha256": "89e13526dd34e1da482ec17b80dbc487972afcca58fe7f80b2c64b983735211d"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2011.nc",
+      "bytes": 226164,
+      "sha256": "206d94eda7a0a4bbf3d7583d2729efac1b1ad9ca854ec3dc8c52cbffc5052166"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2012.nc",
+      "bytes": 2625432,
+      "sha256": "e3b13d2d67cffb01ddc556cfa29d36935f947e4f0612117bb8db6e173250c384"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2013.nc",
+      "bytes": 2618272,
+      "sha256": "284b59cdf6cd589991bcb365edcdf1588fe3b868cc3fee967f22b97f885ab00e"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2014.nc",
+      "bytes": 2618272,
+      "sha256": "a21ba7d79f80bb394ac726c9d98bde8ef40e04424266fcfd8f9426712797e180"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2015.nc",
+      "bytes": 2618272,
+      "sha256": "3164e2ce659376746eec30a49431f2637d0bbb4e748c088d932e57f9f2e9fda2"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2016.nc",
+      "bytes": 2625432,
+      "sha256": "c3effd656c9963908d9631614a6053dfb8320376f4830a5cbcc6754d2739f78f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2017.nc",
+      "bytes": 2618272,
+      "sha256": "0138ccc0913ba4da4251a071e05bcc46e0a6cebdd5d535794f7636c85ebfe029"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2018.nc",
+      "bytes": 2618272,
+      "sha256": "daed3f940ce4e8ffc0669c83fe931c25d6313ac4df1af780181d00c2fdea86d2"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2019.nc",
+      "bytes": 2618272,
+      "sha256": "25e2043bd9fa8246744890cb549d2d4d59118d809392661578029dbfc77d7f59"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2020.nc",
+      "bytes": 2625448,
+      "sha256": "448bcb5335f559259dcf826e70f7833304dfc758f48fe7caa8166410a99efff6"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/erc_2021.nc",
+      "bytes": 2618288,
+      "sha256": "8a3a348b3c22a9afc8ef07efc987f3cb6f826f4adad898d11f1f0fc91687d3ab"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2011.nc",
+      "bytes": 226184,
+      "sha256": "52f27e155d25b6cc98906d08cf3215c73c98ce1dd9650336b0bd70af079f3f1d"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2012.nc",
+      "bytes": 2625452,
+      "sha256": "33acd0e6b341e5ea573372c77a44354acff323a182e86c901646953ce6f8dd84"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2013.nc",
+      "bytes": 2618292,
+      "sha256": "677afb885182561969523334ebcee4770292b92aff08987261e4ff66050aa8e0"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2014.nc",
+      "bytes": 2618292,
+      "sha256": "8fa8f08fd54d2623df14df4daa3b8acd1eb4867b7a440ac7d4be15355258c5e6"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2015.nc",
+      "bytes": 2618292,
+      "sha256": "109ebf83bddee7613d551e318a4ed3f00679592512b59e7ca19ae6eab3e77f6a"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2016.nc",
+      "bytes": 2625452,
+      "sha256": "6c5398e7b45ccfb215754c976462050ed3216198e288c02d4e8652820def1ffa"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2017.nc",
+      "bytes": 2618292,
+      "sha256": "c36845b1a4e5b5e71ad1ef4d4b823db42fb266f881255b38157164f727c41c4f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2018.nc",
+      "bytes": 2618292,
+      "sha256": "956c7c10f12d83e25af2b3f151825ab916ee0198854cf89adc1edd0f3011ba51"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2019.nc",
+      "bytes": 2618292,
+      "sha256": "639e96f4b33262bfd547432b6388218c54c6da5167810a355eb6c8f349aa2212"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2020.nc",
+      "bytes": 2625468,
+      "sha256": "4fd23bae3b4ec2180b283a48d8dc7ae89fb3d7693e2f615a397606f832a9bc4b"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/gridmet/fm100_2021.nc",
+      "bytes": 2618308,
+      "sha256": "b51b5dc56d880d2a5831445aaabffe13812dd486f33e4a3230ff617474f57b6c"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_object_ids.json",
+      "bytes": 238075,
+      "sha256": "57f7c5af19f8731e80c85b5b68cd3de0c62515b7b5284861544e5fa1d27fa2c6"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_000000.json",
+      "bytes": 129212,
+      "sha256": "40684170e8acd415b7d2af978628d848c3efbd0c3df5b3b99606bf134692652f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_000500.json",
+      "bytes": 128836,
+      "sha256": "71c697f1c4647e64d7ea5d9928f2699295efdf7d64911059d0d7ae77d85d3822"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_001000.json",
+      "bytes": 129528,
+      "sha256": "7dfca09c46fb9a310898e5fffcded1f47c32941128b74cbcdd5ff19de86c24c1"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_001500.json",
+      "bytes": 128591,
+      "sha256": "31e9a0f4f5080705b96ff6d07a5a19e8cedccaa3ab7646bffe9ef4094bbc4a98"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_002000.json",
+      "bytes": 128637,
+      "sha256": "e13725b7c807e3b18af66d4e70a2df7b35aef32e6fdb83bde53482e8f1d67e73"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_002500.json",
+      "bytes": 129159,
+      "sha256": "3b93020e5914a6567ad785f33373d50faf2518221709f93140d5897c96c9cae6"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_003000.json",
+      "bytes": 128741,
+      "sha256": "f8ce819055edd1f1c2fbb99cb7382635035cc86e976817d80255d181be78a5a3"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_003500.json",
+      "bytes": 128741,
+      "sha256": "322b253448d59f9a16cef8c0e36737707fba892091e9344769453209c2543840"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_004000.json",
+      "bytes": 129696,
+      "sha256": "f5fffb69b52eb8a8716938044541232fc2a50a339d5df902dab83fb50896a773"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_004500.json",
+      "bytes": 128702,
+      "sha256": "60411bd2dafa59239eb5faaeda76be2c392a33e97be63cca84d773d6c874d34d"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_005000.json",
+      "bytes": 128825,
+      "sha256": "b7841e4e61eefa16a2511419ccf2158559d572c8b216ebd92ab40cbb6a16d0d7"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_005500.json",
+      "bytes": 128847,
+      "sha256": "129d8352e72e090adfbfd34fe7f124bee5c817ea0a20c6e32b84ea20c4bf484b"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_006000.json",
+      "bytes": 129910,
+      "sha256": "7197d24eafa4d7f919260c6adb8e494b580171b3e7ae4c962eff2a2e0e02f46f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_006500.json",
+      "bytes": 128773,
+      "sha256": "0612ff77267f0bb5e12b46d1b97a6d499f1efa43ab015746092e43e5d0bc1bc7"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_007000.json",
+      "bytes": 128794,
+      "sha256": "814be81aff67da54518cc75a76a3ff8bf75b5b963beb5b0a35a99674b935c49d"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_007500.json",
+      "bytes": 128725,
+      "sha256": "0fbc2240282d276e426c0d5c45d9af365ad291d82ae7888a6e1a96b62fa9efd7"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_008000.json",
+      "bytes": 128817,
+      "sha256": "c03d254da9a1f62580b9dafbf85ca870202035e04b217f7ff2e4999f05ed385f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_008500.json",
+      "bytes": 128959,
+      "sha256": "7a2f4fccca889644b938c85f6599706037778eaf2c35472ecf8c4e1d78483219"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_009000.json",
+      "bytes": 128796,
+      "sha256": "363871f749c99e7415642f9ca11d82e31ea459a26d21e8650281befd31d9dc06"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_009500.json",
+      "bytes": 128773,
+      "sha256": "0324d777e6fbc7fd8fd5fe7b5cfb54adcdea4183f5a24727f28373f4bfb8bfc6"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_010000.json",
+      "bytes": 128990,
+      "sha256": "e2e324038ec415364845bcf72199587bbdc745b1ecd06041fa457b5203aafcff"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_010500.json",
+      "bytes": 129143,
+      "sha256": "5ee9faebf5f99d0b80da0a6d10466d720661edb03695f62bab6acd5de273d53e"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_011000.json",
+      "bytes": 128932,
+      "sha256": "9e0c4a198bc23de69ba85b6007ffb57e1a895bb4c08cce66b881b1d241e56777"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_011500.json",
+      "bytes": 128915,
+      "sha256": "a8477414525f579c6e65bd97480fdc9a5dd6c1e7beb0dcaa41e2301fdfe02310"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_012000.json",
+      "bytes": 128919,
+      "sha256": "f374e52bd482dd158129ed0b60106a435cef97edf7c7003cea7b0607b954cd71"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_012500.json",
+      "bytes": 130154,
+      "sha256": "3400bcedd109aa49298e7da5591300655c3e05a69a3a3b2e3a54d8e622608e60"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_013000.json",
+      "bytes": 130964,
+      "sha256": "e33641e862f361b7e002c70a276ca0e8f7b665e9e85143214bcb461b6a2bcedf"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_013500.json",
+      "bytes": 130967,
+      "sha256": "01aa9876343a7b0c570a69d509c242ef1acbfc9bc679c2905eaf62b658d224c7"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_014000.json",
+      "bytes": 130976,
+      "sha256": "6e97c787b1952a85c556a6835b5018aac303a0b76d9ad2a23b7cced92eda70e3"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_014500.json",
+      "bytes": 130971,
+      "sha256": "67880102b53d358f94f6ccef352eac6ef485af322985311de5c3bf36b94dfc74"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_015000.json",
+      "bytes": 130578,
+      "sha256": "e6b4a0d4bdd36508e403074c6a9571b11d41f354f099d4b86b1cfabb7237ad7b"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_015500.json",
+      "bytes": 128718,
+      "sha256": "32b44bf72a245b5311f2e5c7cd8c21a4ec51bc02c07fb2d25172b5f57185adea"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_016000.json",
+      "bytes": 128776,
+      "sha256": "6366920800da1ce26cf81cf3be7bd747b730e56a2871229dd2961fe2ef832caa"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_016500.json",
+      "bytes": 129525,
+      "sha256": "8bdfc27f4c7e7f08c7262cda14e5f3cc3f583ce8cd5c1c13a42f3a7e8c7fa22c"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_017000.json",
+      "bytes": 128814,
+      "sha256": "1cdd0b73720a385c62c7fdbf16b1feed49808fc9c5ce7256848b7159626e4e02"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_017500.json",
+      "bytes": 128717,
+      "sha256": "8ec363276f9e2149729f3b90cdf76a584dfea719cde89905ba710bd457b01a40"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_pages/page_018000.json",
+      "bytes": 80156,
+      "sha256": "ef1c9a5186ce79e6f0dab02d6fd6d3cb3d7e7257656a346fbb9afdbf6c3d8305"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fire_service_metadata.json",
+      "bytes": 44928,
+      "sha256": "21b57dbead1a340467155206b3c5e2813c39d5ccd511db67105badebab7b4802"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/fires.csv",
+      "bytes": 1160487,
+      "sha256": "7b48ce19ecd26ccc8a5f8c539af681e8cfed10c4501b2c34548c267ca0b85a6f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/grid.json",
+      "bytes": 2666,
+      "sha256": "a74988d114dcf8ba12b9abc4c4df7b8512deedf25ab41dcc4e7fc91329897b1f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r0c0.json",
+      "bytes": 358484,
+      "sha256": "c10bb1e7e99a6a87219559df823bd91e0797b2ee0a9f9db7a2ab71a1d4f3e45f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r0c1.json",
+      "bytes": 358419,
+      "sha256": "905cbe3c9091f924f8ae9a898da38042718dad088abdb1481b79436973dc6108"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r0c2.json",
+      "bytes": 358692,
+      "sha256": "24549d75a49802d350467321d711f48b7f8794e9103324f7aa424112f9670231"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r0c3.json",
+      "bytes": 359201,
+      "sha256": "4dda7fee7392c4176664236d66dcb514186eff0190dce2a9650a08504cf1101b"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r1c0.json",
+      "bytes": 358199,
+      "sha256": "1c53d534634e27f8d72c5701e8099bb1335739eb578410e5b3927e349c03afa0"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r1c1.json",
+      "bytes": 358327,
+      "sha256": "5caa2f63453a69ebd2d6e0156c12ed1fdf2616c02929d2b62a392e950e8ef8ca"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r1c2.json",
+      "bytes": 358882,
+      "sha256": "5b9a1728ec8d921427ab518833fbd7d08f51b7da1fb541a37f2b7ab0e1a90e06"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r1c3.json",
+      "bytes": 359227,
+      "sha256": "b805fed23534a7d0c3b8e17815c350609eae19227d1b3d356caea9a19ca354cd"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r2c0.json",
+      "bytes": 357998,
+      "sha256": "ff9e40c2212f32bcd1b86e88be58e4d6c6b185c433c27156ad62c9a72a4b8d56"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r2c1.json",
+      "bytes": 358593,
+      "sha256": "f47ed751f69a9ba5802d8a6782c01073dd2d5c3a3f0082845268478f29425c7d"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r2c2.json",
+      "bytes": 358956,
+      "sha256": "c4dddafb9ce09c87cdf34382d7f5b03b51a936cca521cff025eb6805e5a37c35"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r2c3.json",
+      "bytes": 358562,
+      "sha256": "8a37c4a48f2d56029e2f46fc609c2e37e3cf7e93b4292a48fdd4e2ab1e574248"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r3c0.json",
+      "bytes": 358452,
+      "sha256": "0c1068ffbc37f8005d6c9a12934c27a926f0f92096696d39e356e0906d74068e"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r3c1.json",
+      "bytes": 358949,
+      "sha256": "c4e17aa87ad7ab69eb4898a19952c0b952c38ca4bc811f11c03da5c53df8d599"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r3c2.json",
+      "bytes": 358689,
+      "sha256": "fa3343600e0ed042335add29100e164815f4042ec1835d6226958dfe4873eeeb"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r3c3.json",
+      "bytes": 357969,
+      "sha256": "ac0a18c2e1df59775d0a05b0ac8127826997f097978df5253d85163ab3ace19a"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r4c0.json",
+      "bytes": 358386,
+      "sha256": "590a06950a0375609e0d68ad3b6e8f4f5bb80f2761352e233737f9e6d8cfc9d8"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r4c1.json",
+      "bytes": 358447,
+      "sha256": "39b815e4c7a79851e78bc1dd24c951196a1a5bf2363227a62a0f18a267fa7ab4"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r4c2.json",
+      "bytes": 357650,
+      "sha256": "b615f447791077dc28138f772a7a3fde3b1a0828247b69c5496bc926c08e9e60"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r4c3.json",
+      "bytes": 357510,
+      "sha256": "b5417583448ba9ed9d2777cc87c03913d56806b935e97ba9cd219571dec22aa3"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r5c0.json",
+      "bytes": 357511,
+      "sha256": "c7f3c2c11060d0620f5ca7febf4db24e759c340e14600af40088ac4c9928a1c2"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r5c1.json",
+      "bytes": 358160,
+      "sha256": "6d7257d3ed59430f04b46d204062018fa2bccb59ab144a410e56cf425b4b81c7"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r5c2.json",
+      "bytes": 357838,
+      "sha256": "675f6bc650cdc3965f27a612ebb08acbae625dbb9f80dcbf387acf0aba26eb46"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/original/weather/r5c3.json",
+      "bytes": 357255,
+      "sha256": "d0d00e939d85befc5f819373a98a9f8612d255153b941c72fead6e1b9393f502"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/usgs_batch.json",
+      "bytes": 11487,
+      "sha256": "3a27369cfc2bcdbc21a7a7b38cb2e877fabd4a52176bf3aad836e7727b546b2f"
+    },
+    {
+      "path": "wildfire-outlook/datasets/raw/usgs_terrain.json",
+      "bytes": 10556,
+      "sha256": "a55f86d3c9722de62110eabcfd2e912e5193169e5ee4173a1928f355e469364e"
+    },
+    {
+      "path": "wildfire-outlook/datasets/trial_inputs_2012_2021.csv.gz",
+      "bytes": 8516561,
+      "sha256": "0ee96125f742158a136bb2a797a9421df3cb2fc823545a62946691d8bf8841a0"
+    },
+    {
+      "path": "wildfire-outlook/model/manifest.json",
+      "bytes": 1809,
+      "sha256": "8a29690b0c9e159b3b42a7519097e2cad15a947a1e541a73748026cfc0664cb0"
+    },
+    {
+      "path": "wildfire-outlook/model/model.joblib",
+      "bytes": 359902,
+      "sha256": "f8160573882b6029b260e1c93be3f618dd3663f5690110c347bbcf782ec8e8b2"
+    },
+    {
+      "path": "wildfire-outlook/model/predict.py",
+      "bytes": 4048,
+      "sha256": "a1fdfdac1fb2827d07bf43e335d987f81c0a388c29d3f217746cfdee97d7cf1f"
+    },
+    {
+      "path": "wildfire-outlook/model/requirements.txt",
+      "bytes": 75,
+      "sha256": "7f5f68f3fa0ad2c2340d069a2439fa17f0ea8a9b2d9eb94b27ce647fcf5e365a"
+    }
+  ],
+  "repository_export": {
+    "packaging": "Expanded source repository from localhots-submission.zip",
+    "omitted_from_original_server_manifest": [
+      "wildfire-site/HANDOFF.md",
+      "wildfire-site/app/__pycache__/server.cpython-314.pyc"
+    ],
+    "note": "Entries describe retained copied server payloads. Generated bytecode is excluded; documentation absent from the supplied ZIP is not reconstructed."
+  }
+}

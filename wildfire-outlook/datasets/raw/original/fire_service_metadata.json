@@ -1,0 +1,1175 @@
+{
+  "currentVersion": 11.5,
+  "cimVersion": "3.5.0",
+  "id": 0,
+  "name": "Fire_FPA_FOD_7th_Fires",
+  "type": "Feature Layer",
+  "description": "This data publication contains a spatial database of wildfires that occurred in the United States (US) from 1992 to 2024. It is the sixth update of a publication originally generated to support the national Fire Program Analysis (FPA) system. The wildfire records were acquired from the reporting systems of federal, state, and local fire organizations. The following core data elements were required for records to be included in this data publication: discovery date, final fire size, and a point location at least as precise as a Public Land Survey System (PLSS) section (1-square mile grid). The data were transformed to conform, when possible, to the data standards of the National Wildfire Coordinating Group (NWCG), including an updated wildfire-cause standard (approved August 2020). Basic error-checking was performed, and redundant records were identified and removed to the degree possible. The resulting product, referred to as the Fire Program Analysis fire-occurrence database (FPA FOD), includes 2.66 million geo-referenced wildfire records, representing a total of 209 million acres burned during the 33-year period. Identifiers necessary to link the point-based, final-fire-reporting information to published large-fire-perimeter and operational-situation-reporting datasets are included.",
+  "geometryType": "esriGeometryPoint",
+  "sourceSpatialReference": {
+    "wkid": 4269,
+    "latestWkid": 4269,
+    "xyTolerance": 8.983152841195215e-09,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "xyUnits": 999999999.9999999,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+  },
+  "spatialReference": {
+    "wkid": 4269,
+    "latestWkid": 4269,
+    "xyTolerance": 8.98315284119521e-09,
+    "zTolerance": 2,
+    "mTolerance": 2,
+    "falseX": -400,
+    "falseY": -400,
+    "xyUnits": 999999999.9999999,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "copyrightText": "Funding for this project was provided by USDA Forest Service Fire and Aviation Management (USFS FAM), USDA Forest Service Rocky Mountain Research Station (RMRS), and Fire Program Analysis (FPA).",
+  "parentLayer": null,
+  "subLayers": [],
+  "minScale": 2311162.217155,
+  "maxScale": 0,
+  "referenceScale": 0.0,
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "nwcg_general_cause",
+      "uniqueValueGroups": [
+        {
+          "heading": "General Cause",
+          "classes": [
+            {
+              "label": "Arson/incendiarism",
+              "description": "Arson/incendiarism",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "3c14a813dbf3178f03436204b2a91248",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABTklEQVQ4jbXTMUscQRjG8d/AymmrRLgTbMQqYBB7SSotxRRJYWNhYw7SiBDRKmW+gQmJjZiIYGWddGqZb5CA7h4KSs4USc64srrK6Z5GCL4wxTwz75+H552J/GdF9wqIeZdy0MPsnQG7PKuwGkjxPLCD2ZSoxliZtRsBMfN4HTOcUk1yPWtO+IinCZNllloCjnkfMRGYjhHyOwmfMI7tEus3Ougl3udJg88ZJJf78rXdzkgnP1oCdvkQ6G9cur5agY5fbGTOsFVh5gogMIhHxZwviQNN258FB2WGMs43ohIrGLvGeFvmRe7upAAI/E1pK7GcNQc203NXh6hjKqZRoZqPuBhiwkKWdspWidHfZ5NVj3h8zJcs2ISvWGwJaOPNHzrbmeuingemm9reOeTVYdMbKAAecIRqk/Q9pXYBwcvr4d76Fyo8vO38n4C71CnIplggyr35TwAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 12,
+                "height": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Arson/incendiarism"
+                ]
+              ]
+            },
+            {
+              "label": "Debris and open burning",
+              "description": "Debris and open burning",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "5e75ac496ce77f69e3e9c7ae6d6e2ed5",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA3ElEQVQ4jb3RsUrCURTH8U8hNgW9gEsFbQ0t+gCNIZRIQUNvkdATlL5AQ4tjkLTX0NosiC4tjQ01tBWV/OEI8k+0i9J3OdxzLt/L79yCBVH4T1EJRTzNK6qH6HwRopV5RSWUsYSNafHyohoaWI7zWkgy7vA2dvcGF/iZJOrgG22s5mbrUb9whuasaLcYRN3KzV5whIdZ0Ub00cJVrt+eJJkmytiP+hl7KEbvNEWU7WcXzzjEB66xiW10/yrawz1O8Bq9HVziIEXUQ3X0tcE7jlFJifbrxTEeU0TJDAEy9iY8zyeJ1wAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 13,
+                "height": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Debris and open burning"
+                ]
+              ]
+            },
+            {
+              "label": "Equipment and vehicle use",
+              "description": "Equipment and vehicle use",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "f11211482e0a7005313dbeafd7c9974c",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAy0lEQVQ4jdXUr05CUQDA4W8OCkmyjaQVC8NXoDlMNoNYfBIDjAqN4sYMbspmMTmjvoA0AsmKAWRsJ9wx7r2HjQC/7YSznX072/lTsKMKBwUdo4FTzPGNEWbbQDd4CFiyCW7xEgPdo2NzJ3hGE09ZUCXsJKsj9PCO3zSohaL8yrhGNw2qRSDJtalQSXyl5GQd+sF5JDTOgoa4ioSGedAHLnKQR3xmQf+4xCuqKchbuLC5F3KKOu7CEZ+FJ/KFPgZYxECr/tAOI6r9+0aWVrch2i+doPEAAAAASUVORK5CYII=",
+                "contentType": "image/png",
+                "width": 13,
+                "height": 13,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Equipment and vehicle use"
+                ]
+              ]
+            },
+            {
+              "label": "Firearms and explosives use",
+              "description": "Firearms and explosives use",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6c1d092527980f45bcd8530c2d695c39",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA7klEQVQ4jd2UvQ7BUBSAv5YX6IL7FGZP0b6HdJQQGyHChoEnsJXaTB7D1EUEZZRINP5SHZD4uw1DfcnNPck9+e7POblxfkQ82uJTNlug3y8zn8ekLMnkEcNoKN1u/qGYwaAkLfVxXRXLygFPxMtl+KdZr9U/Kl6ExZoGQkAqFczpNGQy9zmOA5NJEE+n0Ou9ETebYJpBvNnAaATDIbRa4HnXPH9tu5U4setCpwO2DeMx7HYvr/y5uFIJJXov/hJRFwuxZzYLt5kQBxaLJ2LDKGJZVekfLpE4ouu1Szc9Eivtdh3whxyrVdCiN0SveGdQCEfbs7asyAAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 16,
+                "height": 16,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Firearms and explosives use"
+                ]
+              ]
+            },
+            {
+              "label": "Fireworks",
+              "description": "Fireworks",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "450e025a53a0a0b2fb28a0a40ff431d4",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACK0lEQVQ4jcXUP8gScRgH8G9w0Uloyo0iOHSDDSoG2nBD/gHBpcFoEt2dDBVtcRDEBrVEGhwcgkywXMxBRBG84UQkeGl1SASVlvNUCl5PjLPekJdL33hf6IHfcvfj8zy/557fEbjhIP4XSAGgAfRvAqSMRuPL8Xg8EAThNgD2OiBls9leVSqVZwqF4r7BYHi7WCxwDCVOYK9Zln2aTCbvxGKxxzzPixqNpnwMJU5hpVKJnM/naDab0nMXz/M4hhJymNVqzXc6HW+tViOn0ymq1SparRbC4TAajYaE3tJoNO/kUEIO63a73tVqRUYiEaTTaSyXy/2iKArxeBxut9vZbrfvulyu4mX0EFRZLJY3LMs+GY1G5Gg0gkqlQiAQ+LPB5/PB6/UikUiAYZhHPM9/V6vV7wVBEAFwl8EVwzDG2WxG0jQNh8Oxr2i32/3KTBAQRRHdbhe1Wg1Swu12y9A0/XU4HH6Sq3AXjUYfZrPZs1AoREvHjUajIEkSHMdBSuLxeNDr9WAymaDX688dDsfH4XD4AsA32R7qdLofk8nEJKHBYJAul8tYr9cwm83793a7Hf1+H/l8fiNhvV7v+SEm+5UP0WKxSKdSqX2lBoMBnU4H9XpdTCQSH+Swv87hBZrL5c4KhQKtVCqx2Wzg9/vPnU6nbGUnb8ohKvVUq9Xue3YMO3mXL9BMJvN5MBh84TjuKIar/G0kFMADAPcA7Kf4WuDvkIbxJPYv4JXjJx+JD219hm+UAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 15,
+                "height": 15,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Fireworks"
+                ]
+              ]
+            },
+            {
+              "label": "Missing data/not specified/undetermined",
+              "description": "Missing data/not specified/undetermined",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "6f4675cdb3c4ebe5023e89823db36482",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA1UlEQVQ4jdXUIS/GQRwH8M/ZozyJrElUivEWNCNpAopXIjCVptieCTZsimQib4AmSCqBn/Bc+M92/7sg8N0u3Hb77Lvd727glzL4P1AwhVXM4ROPuE68N0PBFvaNsW5egu3EZRUK9nBYKDqDi2A9cV6EgtncpC8TOA5uE2+lRjuYVM80NnFUgpYakO7ZIjTUnmF38xN6wmIj9NwHjbDRCI1q0B1WKshZ4r4IJSJYwxUWCsiN8cD2D2TiNVjGbr7i+fxEHnCC08RXFcrYBw7yasrf+0a+AVWFKtpj2buZAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 13,
+                "height": 13,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Missing data/not specified/undetermined"
+                ]
+              ]
+            },
+            {
+              "label": "Misuse of fire by a minor",
+              "description": "Misuse of fire by a minor",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "3fb16854fb6002eefff95e288c9ff5df",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB0UlEQVQ4jdXUu4viQBwH8K9rRBBsfETyR2hjoYVNxFJIwEYsbS18sbCLaHELx3EWgihoZSNYCNHCIlhY2IiNjYWliOAbRBsfnHHJVHecqxt3t9gvhEwmM5+Q30xC4YtCfW84FAo912q1l8lkolaCWCwWief5dLFYfLoI1+v1H0pROfP5/EEQhEcAl+HZbHa1NCqVCj6fD+12G4vF4p97y+Xy4e4au1wuVKtVZLNZhMPhq2PfDdvtdthsNmQyGeTz+Zvjb8ImkwmlUgler5dcdzodxGKxj8N+vx/r9Zq0z+czrFYr1Go1TqfTx2C9Xi8vDGmLooher4d0Oo14PE4edDfcaDQIImcwGCCVSsHj8YBlWbRarfvhfr8PjUaD4/EIt9sNSZLQbDZvTXvfrjAYDEgkEohEInA4HOh2u58DG41GlMtl8lFwHHcfrNVqyevqdDpSgtVqRWq83+9RqVTgdDpJP0VR5Lzdbsmcw+FwHWZZFsFgEJvNBrvdDjRNEzwQCMBsNmM8HiMajWI0GpHxcl8ymcRwOHwbZhjmjyiKlLytlIZhmNN0Or0M8zyfEAThp9I/HE3TEsdxvwqFwmU4l8v9BiAfiiIv6t/of/Bn5svgV7eDti743hL6AAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 16,
+                "height": 16,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Misuse of fire by a minor"
+                ]
+              ]
+            },
+            {
+              "label": "Natural",
+              "description": "Natural",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "f3927211887d96a7e4c8e43480866a7e",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAXCAYAAAA7kX6CAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABGElEQVQ4jc3SPyhFURgA8J88IhNZTcpksxtkMisZREoUkTJbTJJFQgYpGZgQq43BLMlqZFKE/OvUeXXf8d67L5OvTn3f6f7u/c53bsEfo/CvYDMmYv4d1wEe8uAmRjP1NtbzvjiboHNM57Xaj9VMfYdBfFSDXTjM7D9jDPVoxzueUtiGU7Rm9lpwGfM3DMS2S+Ar+mLegBN0xzq0OVREKXyJK8RWBoVrGMdx3nCmMJmp57CXPpTCXqxl6kf0YBc3WIkdlMAO7OMrDqIQJxnu8wLzRZTC+4hDNOEanTjCcBxe1TOGWIwoDGkGn3lnFKe5EPFShRf/gnXYiJPdqYTKwREs46waSmEjrnCbh1IYfuCaULlWa44/wx/lrDdhlB3d/QAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 17,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Natural"
+                ]
+              ]
+            },
+            {
+              "label": "Other causes",
+              "description": "Other causes",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "4559aaed9f9d6abcbe9a3a1fb6443e3d",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAASCAYAAABrXO8xAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyUlEQVQ4jc3QMUtCURgG4GcQHFMQCgKHBpc2dfQnhFs0hUKrSxC0tpb4G0JxzbWgqS2oHxA4+CdqVRE+4XLpeutOvnDgvefwnHP5SgqmtBfwAn3U4/wLT5himQWHuEntNdDFWVy6SsN2An1jgAruUcY5HvGchjWMo78n+iVa0Q9/+9WXWNtUcZdAP3jbNZxNjvCJ4/j+wBUWebCXQJuB3W6HkgfnGEV/SKNdcBYrM1lwgmb0a7z+FZ7gNPrBf17MTRbsFIWFX8zNGmIFHswZCS6gAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 10,
+                "height": 13,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Other causes"
+                ]
+              ]
+            },
+            {
+              "label": "Power generation/transmission/distribution",
+              "description": "Power generation/transmission/distribution",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "f0b9a1cfae5d572642277c0654e9c09b",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABqElEQVQ4jc3UTyjDYRzH8bdtv7JlDb+ZtEY5OPmT+dOSwxSXXSz1w0HJScrFJPopSjtYyW+zwkpDa61w4cpBrRRnRzfh9psVRWk0O+zAltmUTz2H5/utVz3P9+nR8UfR/QdYB9QBtyWFTSZmDAYGHx7oLSUsVlQw29aGPpGg/+WFs5LAZjMBRaHa4UBwONi+v6cJSBULt9ps9EsSQnozNoYlFGIymWSrKFgU2dnfp/b6Gi4uYGkJYzTKYjJJBHj6FazVIrlc1Le0QF8fpPGREVhepnphgRVVxfMbuFwU8QUC1MZicH6eKXq94POhX1tjVFVRcj2/nLDBgCzLVAoCzM1l68EgTE1BKIR5aIhgIoG7ENhqsTA+PU2VLMPdXbbx+grz83B4iNDcTEc8Tjdw9SPYaGRjd5eamxvw+7/2j44ygwyHsXZ1sfn4SOdP4B67nXanE/36OgwMfH+k09PPIZa53Vj29hgGDvLBZSYTwUiEhvTG48msfFEUbCcneFWV4/RN5YIn3t5olSQ0FJD3dxo1GmZSKVZzweHnZ8KXl4Ww3+df/McF5QMHH3fODAxm2wAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 16,
+                "height": 14,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Power generation/transmission/distribution"
+                ]
+              ]
+            },
+            {
+              "label": "Railroad operations and maintenance",
+              "description": "Railroad operations and maintenance",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "c2c302a8927dfd40c9d0f563632aca98",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA8UlEQVQ4jbXTMUoEQRCF4W+gQTA1kzVS8BSKF5A1MxTRSL2DXkQEQTNhQxFWFwNvYiaGmqk01Cxt26vBYkFBT02/H+o9Opmz0n8AOizhpZrn2Ss+fwN0OMcGtvAc8wEecIeTEpIa4v34ngSkC/FatBKSCsBeIRaXJwFYLeZHeMJVDbjEZgNS1wWuWyt84DDOJaQWH8zyoIecYReLvtcbTv9KYYBxQyxm91U6SkAfVWvv2tgpJBU/17HS2Ln2ZDlS+QEYYwcjLBSG5Rh7SPZhG4+zPLgNyDDyzoblzum84yZ8mFbrLWRI7rJyOsctU+Z+jV+A1jHaJO5UAQAAAABJRU5ErkJggg==",
+                "contentType": "image/png",
+                "width": 12,
+                "height": 12,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Railroad operations and maintenance"
+                ]
+              ]
+            },
+            {
+              "label": "Recreation and ceremony",
+              "description": "Recreation and ceremony",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "71e912e82862aefa62f034d5f943e2a2",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQ4je3QPQ4BQQCG4aeYRkRcR+0nnEKtcRGRaBQ6iRv4adzAEfQOYCUKoiCbbCGCzMoWJN5uinnyzQQFFn4aK2GGAa7o4IRhXiyFFmiihTm6OOTFUmiJRnauZtDLQiQUVfgQKqOGzTsshVaoR4xYo30PPmI9XMS1Qx9bJM+wEabYR2ATjB/nFlb4Y9/3ZwkqEXfPMVjaMf+ugp95AxPSGg+VEqFZAAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 14,
+                "height": 15,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Recreation and ceremony"
+                ]
+              ]
+            },
+            {
+              "label": "Smoking",
+              "description": "Smoking",
+              "symbol": {
+                "type": "esriPMS",
+                "url": "d15502dd5666359c8d03894b91dd119b",
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMklEQVQ4jdXUv26CYBSH4RcLq3HSYJTJy8DJ0UEuwd25SWu3NiFNuzg46E2gm7MTegkmJi4G/8XBwcUgNJSliUCAwNBfwkBOeHJyvvMhklPE/w27vd4rk8kHlvWUSKlUHDTtWxiPXwJhptP3RGi7DasVrNcFDOMZCIH3+/ijEQTo90FV/ffTqZDNjGs1ME2QZbCsh3J6uF4H14XDIbCcHi4W4XwGSYL7PUP4evU79mYdkPSwaUKrBaKYMWzbMJtBteqvXGZwowHNJsznORyeqsJgkACWJFCUaPh4hG43tBwMK4p3TaPhxcLHdR2Wy5jwZgOlUjTs7a7jwO0Wo2NZttluxd8PLhcSRZbv7HYhsKa9YRh64t9muezQ6XwyGgXDwnD4BXhPsniz/oM+dpxhcoN/APvsXnuuJEm5AAAAAElFTkSuQmCC",
+                "contentType": "image/png",
+                "width": 16,
+                "height": 16,
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0
+              },
+              "values": [
+                [
+                  "Smoking"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "3c14a813dbf3178f03436204b2a91248",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABTklEQVQ4jbXTMUscQRjG8d/AymmrRLgTbMQqYBB7SSotxRRJYWNhYw7SiBDRKmW+gQmJjZiIYGWddGqZb5CA7h4KSs4USc64srrK6Z5GCL4wxTwz75+H552J/GdF9wqIeZdy0MPsnQG7PKuwGkjxPLCD2ZSoxliZtRsBMfN4HTOcUk1yPWtO+IinCZNllloCjnkfMRGYjhHyOwmfMI7tEus3Ougl3udJg88ZJJf78rXdzkgnP1oCdvkQ6G9cur5agY5fbGTOsFVh5gogMIhHxZwviQNN258FB2WGMs43ohIrGLvGeFvmRe7upAAI/E1pK7GcNQc203NXh6hjKqZRoZqPuBhiwkKWdspWidHfZ5NVj3h8zJcs2ISvWGwJaOPNHzrbmeuingemm9reOeTVYdMbKAAecIRqk/Q9pXYBwcvr4d76Fyo8vO38n4C71CnIplggyr35TwAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 12,
+            "height": 12,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Arson/incendiarism",
+          "label": "Arson/incendiarism"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "5e75ac496ce77f69e3e9c7ae6d6e2ed5",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA3ElEQVQ4jb3RsUrCURTH8U8hNgW9gEsFbQ0t+gCNIZRIQUNvkdATlL5AQ4tjkLTX0NosiC4tjQ01tBWV/OEI8k+0i9J3OdxzLt/L79yCBVH4T1EJRTzNK6qH6HwRopV5RSWUsYSNafHyohoaWI7zWkgy7vA2dvcGF/iZJOrgG22s5mbrUb9whuasaLcYRN3KzV5whIdZ0Ub00cJVrt+eJJkmytiP+hl7KEbvNEWU7WcXzzjEB66xiW10/yrawz1O8Bq9HVziIEXUQ3X0tcE7jlFJifbrxTEeU0TJDAEy9iY8zyeJ1wAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 13,
+            "height": 12,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Debris and open burning",
+          "label": "Debris and open burning"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "f11211482e0a7005313dbeafd7c9974c",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAy0lEQVQ4jdXUr05CUQDA4W8OCkmyjaQVC8NXoDlMNoNYfBIDjAqN4sYMbspmMTmjvoA0AsmKAWRsJ9wx7r2HjQC/7YSznX072/lTsKMKBwUdo4FTzPGNEWbbQDd4CFiyCW7xEgPdo2NzJ3hGE09ZUCXsJKsj9PCO3zSohaL8yrhGNw2qRSDJtalQSXyl5GQd+sF5JDTOgoa4ioSGedAHLnKQR3xmQf+4xCuqKchbuLC5F3KKOu7CEZ+FJ/KFPgZYxECr/tAOI6r9+0aWVrch2i+doPEAAAAASUVORK5CYII=",
+            "contentType": "image/png",
+            "width": 13,
+            "height": 13,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Equipment and vehicle use",
+          "label": "Equipment and vehicle use"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "6c1d092527980f45bcd8530c2d695c39",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA7klEQVQ4jd2UvQ7BUBSAv5YX6IL7FGZP0b6HdJQQGyHChoEnsJXaTB7D1EUEZZRINP5SHZD4uw1DfcnNPck9+e7POblxfkQ82uJTNlug3y8zn8ekLMnkEcNoKN1u/qGYwaAkLfVxXRXLygFPxMtl+KdZr9U/Kl6ExZoGQkAqFczpNGQy9zmOA5NJEE+n0Ou9ETebYJpBvNnAaATDIbRa4HnXPH9tu5U4setCpwO2DeMx7HYvr/y5uFIJJXov/hJRFwuxZzYLt5kQBxaLJ2LDKGJZVekfLpE4ouu1Szc9Eivtdh3whxyrVdCiN0SveGdQCEfbs7asyAAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 16,
+            "height": 16,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Firearms and explosives use",
+          "label": "Firearms and explosives use"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "450e025a53a0a0b2fb28a0a40ff431d4",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACK0lEQVQ4jcXUP8gScRgH8G9w0Uloyo0iOHSDDSoG2nBD/gHBpcFoEt2dDBVtcRDEBrVEGhwcgkywXMxBRBG84UQkeGl1SASVlvNUCl5PjLPekJdL33hf6IHfcvfj8zy/557fEbjhIP4XSAGgAfRvAqSMRuPL8Xg8EAThNgD2OiBls9leVSqVZwqF4r7BYHi7WCxwDCVOYK9Zln2aTCbvxGKxxzzPixqNpnwMJU5hpVKJnM/naDab0nMXz/M4hhJymNVqzXc6HW+tViOn0ymq1SparRbC4TAajYaE3tJoNO/kUEIO63a73tVqRUYiEaTTaSyXy/2iKArxeBxut9vZbrfvulyu4mX0EFRZLJY3LMs+GY1G5Gg0gkqlQiAQ+LPB5/PB6/UikUiAYZhHPM9/V6vV7wVBEAFwl8EVwzDG2WxG0jQNh8Oxr2i32/3KTBAQRRHdbhe1Wg1Swu12y9A0/XU4HH6Sq3AXjUYfZrPZs1AoREvHjUajIEkSHMdBSuLxeNDr9WAymaDX688dDsfH4XD4AsA32R7qdLofk8nEJKHBYJAul8tYr9cwm83793a7Hf1+H/l8fiNhvV7v+SEm+5UP0WKxSKdSqX2lBoMBnU4H9XpdTCQSH+Swv87hBZrL5c4KhQKtVCqx2Wzg9/vPnU6nbGUnb8ohKvVUq9Xue3YMO3mXL9BMJvN5MBh84TjuKIar/G0kFMADAPcA7Kf4WuDvkIbxJPYv4JXjJx+JD219hm+UAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 15,
+            "height": 15,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Fireworks",
+          "label": "Fireworks"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "6f4675cdb3c4ebe5023e89823db36482",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA1UlEQVQ4jdXUIS/GQRwH8M/ZozyJrElUivEWNCNpAopXIjCVptieCTZsimQib4AmSCqBn/Bc+M92/7sg8N0u3Hb77Lvd727glzL4P1AwhVXM4ROPuE68N0PBFvaNsW5egu3EZRUK9nBYKDqDi2A9cV6EgtncpC8TOA5uE2+lRjuYVM80NnFUgpYakO7ZIjTUnmF38xN6wmIj9NwHjbDRCI1q0B1WKshZ4r4IJSJYwxUWCsiN8cD2D2TiNVjGbr7i+fxEHnCC08RXFcrYBw7yasrf+0a+AVWFKtpj2buZAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 13,
+            "height": 13,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Missing data/not specified/undetermined",
+          "label": "Missing data/not specified/undetermined"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "3fb16854fb6002eefff95e288c9ff5df",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB0UlEQVQ4jdXUu4viQBwH8K9rRBBsfETyR2hjoYVNxFJIwEYsbS18sbCLaHELx3EWgihoZSNYCNHCIlhY2IiNjYWliOAbRBsfnHHJVHecqxt3t9gvhEwmM5+Q30xC4YtCfW84FAo912q1l8lkolaCWCwWief5dLFYfLoI1+v1H0pROfP5/EEQhEcAl+HZbHa1NCqVCj6fD+12G4vF4p97y+Xy4e4au1wuVKtVZLNZhMPhq2PfDdvtdthsNmQyGeTz+Zvjb8ImkwmlUgler5dcdzodxGKxj8N+vx/r9Zq0z+czrFYr1Go1TqfTx2C9Xi8vDGmLooher4d0Oo14PE4edDfcaDQIImcwGCCVSsHj8YBlWbRarfvhfr8PjUaD4/EIt9sNSZLQbDZvTXvfrjAYDEgkEohEInA4HOh2u58DG41GlMtl8lFwHHcfrNVqyevqdDpSgtVqRWq83+9RqVTgdDpJP0VR5Lzdbsmcw+FwHWZZFsFgEJvNBrvdDjRNEzwQCMBsNmM8HiMajWI0GpHxcl8ymcRwOHwbZhjmjyiKlLytlIZhmNN0Or0M8zyfEAThp9I/HE3TEsdxvwqFwmU4l8v9BiAfiiIv6t/of/Bn5svgV7eDti743hL6AAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 16,
+            "height": 16,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Misuse of fire by a minor",
+          "label": "Misuse of fire by a minor"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "f3927211887d96a7e4c8e43480866a7e",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAXCAYAAAA7kX6CAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABGElEQVQ4jc3SPyhFURgA8J88IhNZTcpksxtkMisZREoUkTJbTJJFQgYpGZgQq43BLMlqZFKE/OvUeXXf8d67L5OvTn3f6f7u/c53bsEfo/CvYDMmYv4d1wEe8uAmRjP1NtbzvjiboHNM57Xaj9VMfYdBfFSDXTjM7D9jDPVoxzueUtiGU7Rm9lpwGfM3DMS2S+Ar+mLegBN0xzq0OVREKXyJK8RWBoVrGMdx3nCmMJmp57CXPpTCXqxl6kf0YBc3WIkdlMAO7OMrDqIQJxnu8wLzRZTC+4hDNOEanTjCcBxe1TOGWIwoDGkGn3lnFKe5EPFShRf/gnXYiJPdqYTKwREs46waSmEjrnCbh1IYfuCaULlWa44/wx/lrDdhlB3d/QAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 10,
+            "height": 17,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Natural",
+          "label": "Natural"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "4559aaed9f9d6abcbe9a3a1fb6443e3d",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAASCAYAAABrXO8xAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyUlEQVQ4jc3QMUtCURgG4GcQHFMQCgKHBpc2dfQnhFs0hUKrSxC0tpb4G0JxzbWgqS2oHxA4+CdqVRE+4XLpeutOvnDgvefwnHP5SgqmtBfwAn3U4/wLT5himQWHuEntNdDFWVy6SsN2An1jgAruUcY5HvGchjWMo78n+iVa0Q9/+9WXWNtUcZdAP3jbNZxNjvCJ4/j+wBUWebCXQJuB3W6HkgfnGEV/SKNdcBYrM1lwgmb0a7z+FZ7gNPrBf17MTRbsFIWFX8zNGmIFHswZCS6gAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 10,
+            "height": 13,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Other causes",
+          "label": "Other causes"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "f0b9a1cfae5d572642277c0654e9c09b",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABqElEQVQ4jc3UTyjDYRzH8bdtv7JlDb+ZtEY5OPmT+dOSwxSXXSz1w0HJScrFJPopSjtYyW+zwkpDa61w4cpBrRRnRzfh9psVRWk0O+zAltmUTz2H5/utVz3P9+nR8UfR/QdYB9QBtyWFTSZmDAYGHx7oLSUsVlQw29aGPpGg/+WFs5LAZjMBRaHa4UBwONi+v6cJSBULt9ps9EsSQnozNoYlFGIymWSrKFgU2dnfp/b6Gi4uYGkJYzTKYjJJBHj6FazVIrlc1Le0QF8fpPGREVhepnphgRVVxfMbuFwU8QUC1MZicH6eKXq94POhX1tjVFVRcj2/nLDBgCzLVAoCzM1l68EgTE1BKIR5aIhgIoG7ENhqsTA+PU2VLMPdXbbx+grz83B4iNDcTEc8Tjdw9SPYaGRjd5eamxvw+7/2j44ygwyHsXZ1sfn4SOdP4B67nXanE/36OgwMfH+k09PPIZa53Vj29hgGDvLBZSYTwUiEhvTG48msfFEUbCcneFWV4/RN5YIn3t5olSQ0FJD3dxo1GmZSKVZzweHnZ8KXl4Ww3+df/McF5QMHH3fODAxm2wAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 16,
+            "height": 14,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Power generation/transmission/distribution",
+          "label": "Power generation/transmission/distribution"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "c2c302a8927dfd40c9d0f563632aca98",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA8UlEQVQ4jbXTMUoEQRCF4W+gQTA1kzVS8BSKF5A1MxTRSL2DXkQEQTNhQxFWFwNvYiaGmqk01Cxt26vBYkFBT02/H+o9Opmz0n8AOizhpZrn2Ss+fwN0OMcGtvAc8wEecIeTEpIa4v34ngSkC/FatBKSCsBeIRaXJwFYLeZHeMJVDbjEZgNS1wWuWyt84DDOJaQWH8zyoIecYReLvtcbTv9KYYBxQyxm91U6SkAfVWvv2tgpJBU/17HS2Ln2ZDlS+QEYYwcjLBSG5Rh7SPZhG4+zPLgNyDDyzoblzum84yZ8mFbrLWRI7rJyOsctU+Z+jV+A1jHaJO5UAQAAAABJRU5ErkJggg==",
+            "contentType": "image/png",
+            "width": 12,
+            "height": 12,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Railroad operations and maintenance",
+          "label": "Railroad operations and maintenance"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "71e912e82862aefa62f034d5f943e2a2",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQ4je3QPQ4BQQCG4aeYRkRcR+0nnEKtcRGRaBQ6iRv4adzAEfQOYCUKoiCbbCGCzMoWJN5uinnyzQQFFn4aK2GGAa7o4IRhXiyFFmiihTm6OOTFUmiJRnauZtDLQiQUVfgQKqOGzTsshVaoR4xYo30PPmI9XMS1Qx9bJM+wEabYR2ATjB/nFlb4Y9/3ZwkqEXfPMVjaMf+ugp95AxPSGg+VEqFZAAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 14,
+            "height": 15,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Recreation and ceremony",
+          "label": "Recreation and ceremony"
+        },
+        {
+          "symbol": {
+            "type": "esriPMS",
+            "url": "d15502dd5666359c8d03894b91dd119b",
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMklEQVQ4jdXUv26CYBSH4RcLq3HSYJTJy8DJ0UEuwd25SWu3NiFNuzg46E2gm7MTegkmJi4G/8XBwcUgNJSliUCAwNBfwkBOeHJyvvMhklPE/w27vd4rk8kHlvWUSKlUHDTtWxiPXwJhptP3RGi7DasVrNcFDOMZCIH3+/ijEQTo90FV/ffTqZDNjGs1ME2QZbCsh3J6uF4H14XDIbCcHi4W4XwGSYL7PUP4evU79mYdkPSwaUKrBaKYMWzbMJtBteqvXGZwowHNJsznORyeqsJgkACWJFCUaPh4hG43tBwMK4p3TaPhxcLHdR2Wy5jwZgOlUjTs7a7jwO0Wo2NZttluxd8PLhcSRZbv7HYhsKa9YRh64t9muezQ6XwyGgXDwnD4BXhPsniz/oM+dpxhcoN/APvsXnuuJEm5AAAAAElFTkSuQmCC",
+            "contentType": "image/png",
+            "width": 16,
+            "height": 16,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          },
+          "value": "Smoking",
+          "label": "Smoking"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                111,
+                145,
+                67,
+                255
+              ],
+              "toColor": [
+                111,
+                145,
+                67,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                49,
+                35,
+                140,
+                255
+              ],
+              "toColor": [
+                49,
+                35,
+                140,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                166,
+                45,
+                73,
+                255
+              ],
+              "toColor": [
+                166,
+                45,
+                73,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                62,
+                136,
+                171,
+                255
+              ],
+              "toColor": [
+                62,
+                136,
+                171,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                171,
+                106,
+                36,
+                255
+              ],
+              "toColor": [
+                171,
+                106,
+                36,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                168,
+                35,
+                144,
+                255
+              ],
+              "toColor": [
+                168,
+                35,
+                144,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                53,
+                176,
+                42,
+                255
+              ],
+              "toColor": [
+                53,
+                176,
+                42,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                43,
+                130,
+                108,
+                255
+              ],
+              "toColor": [
+                43,
+                130,
+                108,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                128,
+                98,
+                61,
+                255
+              ],
+              "toColor": [
+                128,
+                98,
+                61,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                40,
+                73,
+                130,
+                255
+              ],
+              "toColor": [
+                40,
+                73,
+                130,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                135,
+                57,
+                101,
+                255
+              ],
+              "toColor": [
+                135,
+                57,
+                101,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                171,
+                164,
+                43,
+                255
+              ],
+              "toColor": [
+                171,
+                164,
+                43,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                49,
+                173,
+                103,
+                255
+              ],
+              "toColor": [
+                49,
+                173,
+                103,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": -178.80259999999998,
+    "ymin": 13.248600000000067,
+    "xmax": 144.9190063000001,
+    "ymax": 70.33060000000006,
+    "spatialReference": {
+      "wkid": 4269,
+      "latestWkid": 4269,
+      "xyTolerance": 8.98315284119521e-09,
+      "zTolerance": 2,
+      "mTolerance": 2,
+      "falseX": -400,
+      "falseY": -400,
+      "xyUnits": 999999999.9999999,
+      "falseZ": 0,
+      "zUnits": 1,
+      "falseM": 0,
+      "mUnits": 1
+    }
+  },
+  "timeInfo": {
+    "startTimeField": "discovery_date",
+    "endTimeField": null,
+    "trackIdField": null,
+    "type": "field",
+    "timeExtent": [
+      694224000000,
+      1735603200000
+    ],
+    "timeReference": null,
+    "timeInterval": 1,
+    "timeIntervalUnits": "esriTimeUnitsYears",
+    "exportOptions": {
+      "useTime": true,
+      "timeDataCumulative": false,
+      "timeOffset": null,
+      "timeOffsetUnits": null
+    },
+    "hasLiveData": false,
+    "timeRelation": "esriTimeRelationOverlaps"
+  },
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "fpa_id",
+  "typeIdField": null,
+  "subtypeFieldName": null,
+  "subtypeField": null,
+  "defaultSubtypeCode": null,
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+    },
+    {
+      "name": "fod_id",
+      "type": "esriFieldTypeInteger",
+      "alias": "FOD_ID",
+      "domain": null
+    },
+    {
+      "name": "fpa_id",
+      "type": "esriFieldTypeString",
+      "alias": "FPA_ID",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "source_system_type",
+      "type": "esriFieldTypeString",
+      "alias": "SOURCE_SYSTEM_TYPE",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "source_system",
+      "type": "esriFieldTypeString",
+      "alias": "SOURCE_SYSTEM",
+      "length": 30,
+      "domain": null
+    },
+    {
+      "name": "nwcg_reporting_agency",
+      "type": "esriFieldTypeString",
+      "alias": "NWCG_REPORTING_AGENCY",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "nwcg_reporting_unit_id",
+      "type": "esriFieldTypeString",
+      "alias": "NWCG_REPORTING_UNIT_ID",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "nwcg_reporting_unit_name",
+      "type": "esriFieldTypeString",
+      "alias": "NWCG_REPORTING_UNIT_NAME",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "source_reporting_unit",
+      "type": "esriFieldTypeString",
+      "alias": "SOURCE_REPORTING_UNIT",
+      "length": 30,
+      "domain": null
+    },
+    {
+      "name": "source_reporting_unit_name",
+      "type": "esriFieldTypeString",
+      "alias": "SOURCE_REPORTING_UNIT_NAME",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "local_fire_report_id",
+      "type": "esriFieldTypeString",
+      "alias": "LOCAL_FIRE_REPORT_ID",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "local_incident_id",
+      "type": "esriFieldTypeString",
+      "alias": "LOCAL_INCIDENT_ID",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "fire_code",
+      "type": "esriFieldTypeString",
+      "alias": "FIRE_CODE",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "fire_name",
+      "type": "esriFieldTypeString",
+      "alias": "FIRE_NAME",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "ics_209_plus_incident_join_id",
+      "type": "esriFieldTypeString",
+      "alias": "ICS_209_PLUS_INCIDENT_JOIN_ID",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "ics_209_plus_complex_join_id",
+      "type": "esriFieldTypeString",
+      "alias": "ICS_209_PLUS_COMPLEX_JOIN_ID",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "mtbs_id",
+      "type": "esriFieldTypeString",
+      "alias": "MTBS_ID",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "mtbs_fire_name",
+      "type": "esriFieldTypeString",
+      "alias": "MTBS_FIRE_NAME",
+      "length": 50,
+      "domain": null
+    },
+    {
+      "name": "complex_name",
+      "type": "esriFieldTypeString",
+      "alias": "COMPLEX_NAME",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "fire_year",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "FIRE_YEAR",
+      "domain": null
+    },
+    {
+      "name": "discovery_date",
+      "type": "esriFieldTypeDate",
+      "alias": "DISCOVERY_DATE",
+      "length": 8,
+      "domain": null
+    },
+    {
+      "name": "discovery_doy",
+      "type": "esriFieldTypeInteger",
+      "alias": "DISCOVERY_DOY",
+      "domain": null
+    },
+    {
+      "name": "discovery_time",
+      "type": "esriFieldTypeString",
+      "alias": "DISCOVERY_TIME",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "nwcg_cause_classification",
+      "type": "esriFieldTypeString",
+      "alias": "NWCG_CAUSE_CLASSIFICATION",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "nwcg_general_cause",
+      "type": "esriFieldTypeString",
+      "alias": "NWCG_GENERAL_CAUSE",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "nwcg_cause_age_category",
+      "type": "esriFieldTypeString",
+      "alias": "NWCG_CAUSE_AGE_CATEGORY",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "cont_date",
+      "type": "esriFieldTypeDate",
+      "alias": "CONT_DATE",
+      "length": 8,
+      "domain": null
+    },
+    {
+      "name": "cont_doy",
+      "type": "esriFieldTypeInteger",
+      "alias": "CONT_DOY",
+      "domain": null
+    },
+    {
+      "name": "cont_time",
+      "type": "esriFieldTypeString",
+      "alias": "CONT_TIME",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "fire_size",
+      "type": "esriFieldTypeDouble",
+      "alias": "FIRE_SIZE",
+      "domain": null
+    },
+    {
+      "name": "fire_size_class",
+      "type": "esriFieldTypeString",
+      "alias": "FIRE_SIZE_CLASS",
+      "length": 1,
+      "domain": null
+    },
+    {
+      "name": "latitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "LATITUDE",
+      "domain": null
+    },
+    {
+      "name": "longitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "LONGITUDE",
+      "domain": null
+    },
+    {
+      "name": "owner_descr",
+      "type": "esriFieldTypeString",
+      "alias": "OWNER_DESCR",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "state",
+      "type": "esriFieldTypeString",
+      "alias": "STATE",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "county",
+      "type": "esriFieldTypeString",
+      "alias": "COUNTY",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "fips_code",
+      "type": "esriFieldTypeString",
+      "alias": "FIPS_CODE",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "fips_name",
+      "type": "esriFieldTypeString",
+      "alias": "FIPS_NAME",
+      "length": 255,
+      "domain": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "globalid",
+      "length": 38,
+      "domain": null
+    },
+    {
+      "name": "shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "SHAPE",
+      "domain": null
+    }
+  ],
+  "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "SHAPE"
+  },
+  "indexes": [
+    {
+      "name": "fireyear",
+      "fields": "fire_year",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "i485nwcg_reporti",
+      "fields": "nwcg_reporting_unit_id",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "r310_sde_rowid_uk",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "uuid_310",
+      "fields": "globalid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "a254_ix1",
+      "fields": "shape",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [
+    {
+      "id": 0,
+      "name": "S_USA.Fire_FPA_FOD_7th_NWCG_Units",
+      "relatedTableId": 1,
+      "role": "esriRelRoleDestination",
+      "keyField": "NWCG_REPORTING_UNIT_ID",
+      "cardinality": "esriRelCardinalityOneToMany",
+      "composite": false,
+      "catalogID": "{3DBCEE70-C69A-4337-8CE0-96A01F82850F}"
+    }
+  ],
+  "canModifyLayer": true,
+  "canScaleSymbols": false,
+  "hasLabels": false,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 2000,
+  "maxSelectionCount": 2000,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "isDataVersioned": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+  },
+  "supportsDatumTransformation": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": false
+  },
+  "dateFieldsTimeReference": null,
+  "preferredTimeReference": null,
+  "datesInUnknownTimezone": false,
+  "hasMetadata": true,
+  "isDataArchived": false,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsCoordinatesQuantization": true,
+  "supportsDynamicLegends": true
+}

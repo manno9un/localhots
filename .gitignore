@@ -1,0 +1,22 @@
+# Generated Python files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Submission archives and editor files
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

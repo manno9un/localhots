@@ -1,0 +1,7 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+
+# Preserve retained scientific artifacts exactly, including decimal CSV inputs.
+wildfire-outlook/datasets/** -text
+wildfire-outlook/model/** -text

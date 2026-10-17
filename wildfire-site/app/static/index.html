@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>localhots</title>
+  <meta name="description" content="Replay three fire seasons in Northern California and see where a model running on IBM LinuxONE said to look first." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path fill='%23e8400d' d='M16 2c2 6 9 9 9 17a9 9 0 0 1-18 0c0-4 2-7 4-9 0 3 1 5 3 6 0-6 0-10 2-14z'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo"><span class="flame" aria-hidden="true"></span>localhots</a>
+      <nav aria-label="Sections">
+        <a href="#replay">Replay map</a>
+        <a href="#how">How it works</a>
+        <a href="#results">Results</a>
+        <a href="#linuxone">LinuxONE</a>
+        <a href="#forecast">Live forecast</a>
+      </nav>
+      <span class="chip chip-live" id="runtime-chip"><span class="dot"></span>Connecting…</span>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Replay -->
+    <section id="replay" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Replay map</p>
+          <h2>Pick a day. See where it said to look.</h2>
+          <p class="muted">The glow shows the model's risk, issued the evening before. Numbered badges are the top 3 areas a crew would check. Dots are the fires actually discovered that day.</p>
+        </div>
+
+        <div class="controls card">
+          <div class="control-row">
+            <button class="btn btn-icon" id="prev" aria-label="Previous day">&lsaquo;</button>
+            <input type="date" id="date" aria-label="Date" />
+            <button class="btn btn-icon" id="next" aria-label="Next day">&rsaquo;</button>
+            <button class="btn btn-primary" id="play" aria-pressed="false">Play season</button>
+            <label class="speed">Speed
+              <select id="speed">
+                <option value="700">Slow</option>
+                <option value="300" selected>Normal</option>
+                <option value="120">Fast</option>
+              </select>
+            </label>
+          </div>
+          <div class="jump">
+            <span class="muted small">Jump to a busy day:</span>
+            <span id="jumps"></span>
+          </div>
+        </div>
+
+        <div class="replay-grid">
+          <div class="map-col">
+            <div id="map" class="card map" role="img" aria-label="Map of the 24 forecast areas"></div>
+            <div class="legend">
+              <span class="ramp-wrap">Lower risk <i class="ramp"></i> Higher risk</span>
+              <span><i class="fire-dot"></i>Actual fire</span>
+              <span><i class="rank-mini">1</i>Top 3 picks</span>
+              <span><i class="no-data-swatch"></i>No data: transparent</span>
+            </div>
+            <div class="card strip-card">
+              <div class="strip-head">
+                <span class="small"><b id="strip-year">2024</b> · fires discovered per day</span>
+                <span class="small muted"><i class="sw sw-hit"></i>top 3 caught a fire <i class="sw sw-miss"></i>missed</span>
+              </div>
+              <svg id="strip" class="strip" preserveAspectRatio="none" role="img" aria-label="Fires per day this year; click to jump"></svg>
+            </div>
+          </div>
+
+          <aside class="panel" aria-live="polite">
+            <div class="card day-card">
+              <p class="eyebrow" id="day-issued">Issued —</p>
+              <h3 id="day-title">Loading…</h3>
+              <div class="verdict" id="verdict"></div>
+              <p class="tiny muted" id="live-note"></p>
+            </div>
+            <div id="watch" class="watch"></div>
+            <div class="card cell-card" id="cell-card" hidden></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">IBM Z Datathon 2026 · Northern California</p>
+        <h1 class="display">Where will the next fire start?</h1>
+        <p class="lede">Fire crews can't watch everywhere. Each day our model ranks 24 areas of Northern California by how likely a new wildfire is <em>tomorrow</em>, using only weather and history up to today. Replay 2022–2024 and see how often it pointed the right way.</p>
+        <div class="hero-actions">
+          <a href="#replay" class="btn btn-primary">Replay a fire season</a>
+          <a href="#results" class="btn btn-light">See the results</a>
+        </div>
+        <dl class="hero-stats" id="hero-stats">
+          <div><dt>Fires in the record</dt><dd data-k="fires">18,303</dd></div>
+          <div><dt>Areas ranked each day</dt><dd>24</dd></div>
+          <div><dt>Fire days caught by checking 3 areas</dt><dd data-k="recall">34%</dd></div>
+          <div><dt>Time to score a day on LinuxONE</dt><dd data-k="ms">~6 ms</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="section band">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2>From 13 years of fires and weather to a daily watch list</h2>
+        </div>
+        <div class="steps">
+          <article class="tile tone-petal">
+            <span class="step-n">01</span>
+            <h3>Collect</h3>
+            <p><b data-k="fires">18,303</b> fires from the US Forest Service fire-occurrence database, plus daily ERA5 weather for each area from 2012 to 2024.</p>
+          </article>
+          <article class="tile tone-canary">
+            <span class="step-n">02</span>
+            <h3>Describe each day</h3>
+            <p>For every area and day: recent heat, humidity, wind, rain over 1–30 days, dry streaks, and how unusual each is <em>for that place and month</em>.</p>
+          </article>
+          <article class="tile tone-mint">
+            <span class="step-n">03</span>
+            <h3>Learn</h3>
+            <p>A gradient-boosted tree model (<span data-k="trees">120</span> trees, <span data-k="features">27</span> inputs), trained on 2013–2021, blended 75/25 with each area's past fire rate.</p>
+          </article>
+          <article class="tile tone-violet">
+            <span class="step-n">04</span>
+            <h3>Rank</h3>
+            <p>Every evening, score all 24 areas for tomorrow and send crews to the top 3. Tested on 2022–2024, which the model never saw during training.</p>
+          </article>
+        </div>
+        <div class="split">
+          <div class="card">
+            <h3 class="h-sm">No peeking at the future</h3>
+            <p class="muted">Every input for a target day uses data up to the day before. Training history stops at 31 Dec 2021 and the model is frozen after that, so the model never trained on any day shown on the map.</p>
+          </div>
+          <div class="card">
+            <h3 class="h-sm">What the model leans on</h3>
+            <p class="muted small">How much the score quality drops when each input is scrambled (permutation importance, computed on LinuxONE when the server starts).</p>
+            <div class="chart-box short"><canvas id="importance-chart"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Results · 2022–2024 test period</p>
+          <h2>Ranking the right places first</h2>
+          <p class="muted" id="results-intro">Recomputed live from the model each time the server starts.</p>
+        </div>
+
+        <div class="metric-grid" id="metric-grid"></div>
+
+        <div class="split">
+          <div class="card">
+            <h3 class="h-sm">The accuracy trap</h3>
+            <p class="muted">Only <b data-k="prev">12%</b> of area-days have a fire. A "model" that always says <em>no fire</em> is <b data-k="noacc">88%</b> accurate and useless. Ours is <b data-k="acc">86%</b> accurate at its alert setting, because it deliberately raises alerts to catch more fires. So we judge it on how well it <em>ranks</em> risky places, not on accuracy.</p>
+            <div class="confusion" id="confusion"></div>
+          </div>
+          <div class="card">
+            <h3 class="h-sm">Precision vs. recall</h3>
+            <p class="muted small">Above the dashed line means better than random guessing at every setting.</p>
+            <div class="chart-box"><canvas id="pr-chart"></canvas></div>
+          </div>
+        </div>
+
+        <div class="split">
+          <div class="card">
+            <h3 class="h-sm">Consistent every year</h3>
+            <p class="muted small">Average precision by test year (random = about 0.12).</p>
+            <div class="chart-box short"><canvas id="year-chart"></canvas></div>
+          </div>
+          <div class="card">
+            <h3 class="h-sm">Checking only 3 of 24 areas a day</h3>
+            <p class="muted small">Share of all fire area-days covered.</p>
+            <div class="chart-box short"><canvas id="review-chart"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LinuxONE -->
+    <section id="linuxone" class="section dark">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow on-dark">Built and served on IBM LinuxONE</p>
+          <h2>The whole pipeline lives on one IBM Z machine</h2>
+          <p class="on-dark-muted">Data, training, model selection, inference and this website all run on a LinuxONE Community Cloud instance. The numbers below are reported live by the server you're talking to right now.</p>
+        </div>
+        <div class="run-grid" id="run-grid"></div>
+        <div class="flow">
+          <div><b>USFS fires + ERA5 weather</b><span>public data</span></div>
+          <div><b>Feature builder</b><span>past-only, per area/day</span></div>
+          <div><b>HistGradientBoosting</b><span>trained on s390x</span></div>
+          <div><b>Docker container</b><span>read-only, 3 CPU / 2 GB</span></div>
+          <div><b>This website</b><span>live API on LinuxONE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live forecast (reserved) -->
+    <section id="forecast" class="section">
+      <div class="wrap">
+        <div class="forecast card-dark">
+          <div>
+            <span class="chip chip-soon">Coming soon</span>
+            <h2>Live forecast</h2>
+            <p class="on-dark-muted">Today the model replays history. Next, we'll pull tomorrow's weather forecast every evening, build the same 27 inputs, and publish a real outlook for the next day, with the same map and watch list.</p>
+            <ol class="forecast-steps">
+              <li>Fetch the daily forecast for all 24 areas (Open-Meteo)</li>
+              <li>Build features exactly like training</li>
+              <li>Score on LinuxONE and publish tomorrow's top 3</li>
+              <li>Track how it did the next day</li>
+            </ol>
+          </div>
+          <div class="forecast-preview" aria-hidden="true">
+            <div class="ghost-grid"></div>
+            <span>Tomorrow's map will appear here</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Limits -->
+    <section class="section band">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Honest limits</p>
+          <h2>What this is, and isn't</h2>
+        </div>
+        <div class="limits">
+          <div class="card"><h3 class="h-sm">A ranking, not a probability</h3><p class="muted">Scores say which areas are riskier than others. They are not calibrated chances of fire.</p></div>
+          <div class="card"><h3 class="h-sm">Large areas</h3><p class="muted">Each area is about 45 × 56 km with one weather point. It can't see terrain, fuels, power lines, lightning or people.</p></div>
+          <div class="card"><h3 class="h-sm">Hindsight weather</h3><p class="muted">ERA5 is reanalysis made after the fact. Real forecasts are noisier, which is why the live version is the next step.</p></div>
+          <div class="card"><h3 class="h-sm">One region</h3><p class="muted">Trained and tested on one part of Northern California. The test years were also looked at during development.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p><b>localhots</b> · IBM Z Datathon 2026</p>
+      <p class="tiny">Fire data: US Forest Service, Fire Program Analysis Fire-Occurrence Database (FPA FOD), 7th edition. Weather: Open-Meteo / Copernicus ERA5, CC BY 4.0. Map tiles © OpenStreetMap contributors. Research model, not an official warning service.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
